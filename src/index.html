@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
   <head>
     <meta charset="UTF-8" />
     <meta
@@ -8,11 +8,10 @@
     />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
     <link rel="stylesheet" href="../scss/styles.scss" />
-    <link rel="stylesheet" href="../scss/footer.scss">
-    <title>Document</title>
+    <title>Soutien Technique Informatique</title>
 
   </head>
-  <body class="container">
+  <body class="container m-4">
   <nav class="navbar navbar-expand-lg navbar-light bg-light navbar navbar-light " style="background-color: #e3f2fd;">
     <a class="navbar-brand" href="#">Navbar</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,22 +34,27 @@
         </li>
       </ul>
     </div>
-  </nav>>
-    <h1 class="mt-auto">Hello, world!</h1>
-      <footer class="footer">
-        <div id="footerLeft"><a class="donateLink" href='#' onClick='showDonate()'>Donate</a></div>
-        <div id="footerRight">CAI 2022</div>
-      </footer>
+  </nav>
+    <h1 class="mt-auto">JP va nous parler de ses animes préférés !</h1>
+  <footer id="footer" class="d-flex flex-wrap justify-content-between align-items-center py-3 m-4 border-top fixed-bottom">
+    <p class="col-md-4 mb-0 text-muted">© 2022 Cégep Régionale de Lanaudière de Joliette</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <img height="45px" width="40px" src="../images/Shield_Logo.png"/>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Accueil</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">À propos</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Wikis</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Cégep</a></li>
+    </ul>
+  </footer>
 
 
-      <div class="donateBox" id="donateBox">
-        <div class="donate">
-          <h1 class="donateHeader">Faire un don (Dogecoin)</h1>
-          <img class="donateImage" src="../images/wallet.svg" alt="Faire un don">
-          <a class="donateAddress" href="dogecoin:cooladdress">DAJXE83WEsiyMYiG2CVmp3kZ9MafrmkH5c</a>
-        </div>
-      </div>
-      <script src="../node_modules/bootstrap/dist/js/bootstrap.js" type="module"></script>
+
+  <script src="../node_modules/bootstrap/dist/js/bootstrap.js" type="module"></script>
   </body>
   <script src="../js/footer.js"></script>
 
