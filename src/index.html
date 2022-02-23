@@ -1,109 +1,189 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-      name="viewport"
-    />
-    <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <link rel="stylesheet" href="../scss/styles.scss" />
-    <title>Soutien Technique Informatique</title>
-  </head>
-  <body class="container">
-    <nav class="navbar navbar-expand-lg navbar-light nav-color">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="/">C.A.I</a>
-        <button
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          class="navbar-toggler"
-          data-bs-target="#navbarNav"
-          data-bs-toggle="collapse"
-          type="button"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="/">Accueil</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Docs</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">À propos</a>
-            </li>
-          </ul>
-          <a class="nav-link text-black" href="contactus.html">Nous contacter</a>
-        </div>
-      </div>
-    </nav>
-
-<div class="container">
-    <div class="row">
-      <div class="col-6">
-        <h1>Qu'est-ce que le C.A.I</h1>
-        <p>
-          Un rassemblement de personnes en informatique qui te donne de l'aide
-          en échange de sexe
-        </p>
-      </div>
-      <div class="col-6 text-center">
-        <h1>Documentation</h1>
-        <p>C'est les documentations de jp</p>
-      </div>
-      <div class="col-6">
-        <h1>Contactez nous</h1>
-        <p>
-          Vous pourrez nous contacter pour voir le onlyfans de
-          Jeanne-Philippette
-        </p>
-      </div>
-      <div class="col-6">
-        <h1>Promo</h1>
-        <p>Venez visiter notre pornhub pour bébé appelé bornhub</p>
-      </div>
-    </div>
-</div>
-<footer
-      class="d-flex flex-wrap justify-content-between align-items-center py-3 m-4 border-top fixed-bottom"
-      id="footer"
-    >
-      <p class="col-md-4 mb-0 text-muted">
-        © 2022 Cégep Régionale de Lanaudière de Joliette
-      </p>
-
-      <a
-        class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
-        href="/"
-      >
-        <img height="45px" src="../images/Shield_Logo.png" width="40px" />
-      </a>
-
-      <ul class="nav col-md-4 justify-content-end">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport"
+  />
+  <meta content="ie=edge" http-equiv="X-UA-Compatible" />
+  <link href="../scss/styles.scss" rel="stylesheet" />
+  <title>Soutien Technique Informatique</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-primary shadow-lg sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/"><img height="97" src="../images/Logo_site.png" width="285" /></a>
+    <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+            data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav mx-2 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
         <li class="nav-item">
-          <a class="nav-link px-2 text-muted" href="#">Accueil</a>
+          <a aria-current="page" class="nav-link active" href="/">Accueil</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-2 text-muted" href="#">À propos</a>
+          <a class="nav-link" href="about.html">À propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-2 text-muted" href="#">Wikis</a>
+          <a class="nav-link" href="#">Horaire</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-2 text-muted" href="#">FAQs</a>
+          <a class="nav-link" href="#">Wikis</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link px-2 text-muted" href="#">Cégep</a>
+          <a class="nav-link" href="#">FAQs</a>
         </li>
       </ul>
-    </footer>
-    <script
-      src="../node_modules/bootstrap/dist/js/bootstrap.js"
-      type="module"
-    ></script>
-  </body>
+      <form class="d-flex">
+        <input aria-label="Search" class="form-control me-2" placeholder="Search" type="search">
+        <button class="btn btn-outline-success" type="submit">Recherche</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="modal-content mt-5" id="content">
+    <h1 class="mt-auto">JP va nous parler de ses animes préférés !</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at auctor purus. Ut porttitor vel lectus quis
+      vestibulum. Donec lobortis, nibh non mollis placerat, tellus libero mollis urna, ut elementum felis turpis non
+      arcu. Vestibulum laoreet porta quam eget rhoncus. Quisque ultricies porttitor venenatis. Suspendisse sem ligula,
+      molestie vitae sem id, tristique viverra mi. Duis eget tempus urna.
+    </p>
+    <p>
+      Proin augue nulla, pretium feugiat convallis ac, interdum in dolor. Aenean gravida, nisi ac venenatis malesuada,
+      sapien turpis ultricies mi, mattis tincidunt diam libero vitae risus. Cras eget velit ut purus sagittis pharetra
+      at eu turpis. Vivamus et purus feugiat, pretium urna nec, consequat elit. Integer tincidunt felis suscipit,
+      scelerisque justo et, venenatis ipsum. Mauris pretium, ipsum ut interdum dapibus, risus ipsum malesuada justo, sit
+      amet congue nisi odio sed nulla. Nunc felis sapien, commodo congue mi eget, commodo pretium purus. Praesent vel
+      accumsan erat, ut interdum metus. Aenean vulputate ex in turpis vestibulum tincidunt. Aenean sed metus est.
+    </p>
+    <p>
+      Vivamus eros nisi, pretium eleifend blandit sed, gravida at eros. Integer ipsum lectus, molestie et cursus sit
+      amet, imperdiet lobortis tortor. Ut et lectus nec nunc feugiat rutrum. Cras aliquet dapibus lectus. Suspendisse
+      libero ligula, commodo sed blandit in, finibus sit amet est. Maecenas a est sit amet urna finibus sodales in
+      volutpat ex. Morbi in lectus hendrerit, viverra ipsum dictum, maximus mi. Ut dapibus justo quis enim cursus, sit
+      amet tincidunt ante dignissim. Nam erat nisl, aliquam non augue ac, vulputate molestie urna. In nec odio
+      venenatis, porttitor lectus at, malesuada nulla. In vehicula pharetra odio, nec convallis sem lacinia eget.
+      Quisque mattis tortor ligula, ut tempus est egestas id. Donec vehicula, augue congue sagittis condimentum, nisi
+      metus sollicitudin libero, id tincidunt augue diam sit amet lacus. Sed aliquam, lectus et dapibus semper, enim
+      ante volutpat urna, non molestie eros ligula quis ligula.
+    </p>
+    <p>
+      Suspendisse a tristique turpis, at laoreet felis. Praesent iaculis scelerisque mauris vitae mattis. Donec sodales
+      velit iaculis, tempus ex non, bibendum sapien. Nunc euismod mattis pharetra. Quisque lacinia nulla ac turpis
+      egestas iaculis. Cras a vulputate urna. Proin enim ipsum, semper eu erat vitae, porta viverra dolor. Nunc sodales
+      dui a lectus sodales, sit amet convallis mi iaculis.
+    </p>
+    Phasellus vel tincidunt sapien. Nulla dictum pharetra sem, ac aliquet mauris aliquam in. Etiam sodales varius
+    interdum. Ut porttitor purus eu libero euismod ultricies. Integer efficitur, ante sit amet condimentum placerat,
+    velit massa lobortis nunc, sit amet commodo odio nisl sed orci. Donec quis sapien metus. Orci varius natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean elementum nunc tincidunt magna gravida
+    gravida. Phasellus ut ligula malesuada massa feugiat tristique. Aenean dapibus vulputate ligula pretium mollis.
+    Morbi vestibulum ipsum et nisi scelerisque eleifend. Sed porttitor leo sit amet tellus sollicitudin faucibus. Morbi
+    porta libero id ligula mollis scelerisque a id purus. Suspendisse ultricies, urna sed placerat pretium, mi risus
+    viverra arcu, cursus luctus turpis urna non neque. Nullam blandit condimentum lorem, at gravida velit posuere quis.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at auctor purus. Ut porttitor vel lectus quis
+      vestibulum. Donec lobortis, nibh non mollis placerat, tellus libero mollis urna, ut elementum felis turpis non
+      arcu. Vestibulum laoreet porta quam eget rhoncus. Quisque ultricies porttitor venenatis. Suspendisse sem ligula,
+      molestie vitae sem id, tristique viverra mi. Duis eget tempus urna.
+    </p>
+    <p>
+      Proin augue nulla, pretium feugiat convallis ac, interdum in dolor. Aenean gravida, nisi ac venenatis malesuada,
+      sapien turpis ultricies mi, mattis tincidunt diam libero vitae risus. Cras eget velit ut purus sagittis pharetra
+      at eu turpis. Vivamus et purus feugiat, pretium urna nec, consequat elit. Integer tincidunt felis suscipit,
+      scelerisque justo et, venenatis ipsum. Mauris pretium, ipsum ut interdum dapibus, risus ipsum malesuada justo, sit
+      amet congue nisi odio sed nulla. Nunc felis sapien, commodo congue mi eget, commodo pretium purus. Praesent vel
+      accumsan erat, ut interdum metus. Aenean vulputate ex in turpis vestibulum tincidunt. Aenean sed metus est.
+    </p>
+    <p>
+      Vivamus eros nisi, pretium eleifend blandit sed, gravida at eros. Integer ipsum lectus, molestie et cursus sit
+      amet, imperdiet lobortis tortor. Ut et lectus nec nunc feugiat rutrum. Cras aliquet dapibus lectus. Suspendisse
+      libero ligula, commodo sed blandit in, finibus sit amet est. Maecenas a est sit amet urna finibus sodales in
+      volutpat ex. Morbi in lectus hendrerit, viverra ipsum dictum, maximus mi. Ut dapibus justo quis enim cursus, sit
+      amet tincidunt ante dignissim. Nam erat nisl, aliquam non augue ac, vulputate molestie urna. In nec odio
+      venenatis, porttitor lectus at, malesuada nulla. In vehicula pharetra odio, nec convallis sem lacinia eget.
+      Quisque mattis tortor ligula, ut tempus est egestas id. Donec vehicula, augue congue sagittis condimentum, nisi
+      metus sollicitudin libero, id tincidunt augue diam sit amet lacus. Sed aliquam, lectus et dapibus semper, enim
+      ante volutpat urna, non molestie eros ligula quis ligula.
+    </p>
+    <p>
+      Suspendisse a tristique turpis, at laoreet felis. Praesent iaculis scelerisque mauris vitae mattis. Donec sodales
+      velit iaculis, tempus ex non, bibendum sapien. Nunc euismod mattis pharetra. Quisque lacinia nulla ac turpis
+      egestas iaculis. Cras a vulputate urna. Proin enim ipsum, semper eu erat vitae, porta viverra dolor. Nunc sodales
+      dui a lectus sodales, sit amet convallis mi iaculis.
+    </p>
+    Phasellus vel tincidunt sapien. Nulla dictum pharetra sem, ac aliquet mauris aliquam in. Etiam sodales varius
+    interdum. Ut porttitor purus eu libero euismod ultricies. Integer efficitur, ante sit amet condimentum placerat,
+    velit massa lobortis nunc, sit amet commodo odio nisl sed orci. Donec quis sapien metus. Orci varius natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean elementum nunc tincidunt magna gravida
+    gravida. Phasellus ut ligula malesuada massa feugiat tristique. Aenean dapibus vulputate ligula pretium mollis.
+    Morbi vestibulum ipsum et nisi scelerisque eleifend. Sed porttitor leo sit amet tellus sollicitudin faucibus. Morbi
+    porta libero id ligula mollis scelerisque a id purus. Suspendisse ultricies, urna sed placerat pretium, mi risus
+    viverra arcu, cursus luctus turpis urna non neque. Nullam blandit condimentum lorem, at gravida velit posuere quis.
+    </p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at auctor purus. Ut porttitor vel lectus quis
+      vestibulum. Donec lobortis, nibh non mollis placerat, tellus libero mollis urna, ut elementum felis turpis non
+      arcu. Vestibulum laoreet porta quam eget rhoncus. Quisque ultricies porttitor venenatis. Suspendisse sem ligula,
+      molestie vitae sem id, tristique viverra mi. Duis eget tempus urna.
+    </p>
+    <p>
+      Proin augue nulla, pretium feugiat convallis ac, interdum in dolor. Aenean gravida, nisi ac venenatis malesuada,
+      sapien turpis ultricies mi, mattis tincidunt diam libero vitae risus. Cras eget velit ut purus sagittis pharetra
+      at eu turpis. Vivamus et purus feugiat, pretium urna nec, consequat elit. Integer tincidunt felis suscipit,
+      scelerisque justo et, venenatis ipsum. Mauris pretium, ipsum ut interdum dapibus, risus ipsum malesuada justo, sit
+      amet congue nisi odio sed nulla. Nunc felis sapien, commodo congue mi eget, commodo pretium purus. Praesent vel
+      accumsan erat, ut interdum metus. Aenean vulputate ex in turpis vestibulum tincidunt. Aenean sed metus est.
+    </p>
+    <p>
+      Vivamus eros nisi, pretium eleifend blandit sed, gravida at eros. Integer ipsum lectus, molestie et cursus sit
+      amet, imperdiet lobortis tortor. Ut et lectus nec nunc feugiat rutrum. Cras aliquet dapibus lectus. Suspendisse
+      libero ligula, commodo sed blandit in, finibus sit amet est. Maecenas a est sit amet urna finibus sodales in
+      volutpat ex. Morbi in lectus hendrerit, viverra ipsum dictum, maximus mi. Ut dapibus justo quis enim cursus, sit
+      amet tincidunt ante dignissim. Nam erat nisl, aliquam non augue ac, vulputate molestie urna. In nec odio
+      venenatis, porttitor lectus at, malesuada nulla. In vehicula pharetra odio, nec convallis sem lacinia eget.
+      Quisque mattis tortor ligula, ut tempus est egestas id. Donec vehicula, augue congue sagittis condimentum, nisi
+      metus sollicitudin libero, id tincidunt augue diam sit amet lacus. Sed aliquam, lectus et dapibus semper, enim
+      ante volutpat urna, non molestie eros ligula quis ligula.
+    </p>
+    <p>
+      Suspendisse a tristique turpis, at laoreet felis. Praesent iaculis scelerisque mauris vitae mattis. Donec sodales
+      velit iaculis, tempus ex non, bibendum sapien. Nunc euismod mattis pharetra. Quisque lacinia nulla ac turpis
+      egestas iaculis. Cras a vulputate urna. Proin enim ipsum, semper eu erat vitae, porta viverra dolor. Nunc sodales
+      dui a lectus sodales, sit amet convallis mi iaculis.
+    </p>
+    Phasellus vel tincidunt sapien. Nulla dictum pharetra sem, ac aliquet mauris aliquam in. Etiam sodales varius
+    interdum. Ut porttitor purus eu libero euismod ultricies. Integer efficitur, ante sit amet condimentum placerat,
+    velit massa lobortis nunc, sit amet commodo odio nisl sed orci. Donec quis sapien metus. Orci varius natoque
+    penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean elementum nunc tincidunt magna gravida
+    gravida. Phasellus ut ligula malesuada massa feugiat tristique. Aenean dapibus vulputate ligula pretium mollis.
+    Morbi vestibulum ipsum et nisi scelerisque eleifend. Sed porttitor leo sit amet tellus sollicitudin faucibus. Morbi
+    porta libero id ligula mollis scelerisque a id purus. Suspendisse ultricies, urna sed placerat pretium, mi risus
+    viverra arcu, cursus luctus turpis urna non neque. Nullam blandit condimentum lorem, at gravida velit posuere quis.
+    </p>
+  </div>
+</div>
+<footer class="d-flex flex-wrap justify-content-between align-items-center py-sm-3 mx-4 border-top">
+  <p class="col-md-4 mb-0 text-muted">© 2022 Cégep Régionale de Lanaudière de Joliette</p>
+  
+  <a class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+     href="/">
+    <img height="45px" src="../images/Shield_Logo.png" width="40px" />
+  </a>
+  
+  <ul class="nav col-md-4 justify-content-end">
+    <li class="nav-item"><a class="nav-link px-2 text-muted" href="#">Accueil</a></li>
+    <li class="nav-item"><a class="nav-link px-2 text-muted" href="#">À propos</a></li>
+    <li class="nav-item"><a class="nav-link px-2 text-muted" href="#">Wikis</a></li>
+    <li class="nav-item"><a class="nav-link px-2 text-muted" href="#">FAQs</a></li>
+    <li class="nav-item"><a class="nav-link px-2 text-muted" href="#">Cégep</a></li>
+  </ul>
+</footer>
+<script src="../node_modules/bootstrap/dist/js/bootstrap.js" type="module"></script>
+</body>
 </html>
