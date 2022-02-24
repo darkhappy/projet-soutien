@@ -11,47 +11,44 @@
   <title>A propos</title>
 </head>
 <body>
-<header class="container-fluid bg-primary bg-gradient text-white mb-5">
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary bg-gradient shadow-lg sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="/">Centre Aide Informatique</a>
-      <button
-              aria-controls="navbarNav"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-              class="navbar-toggler"
-              data-bs-target="#navbarNav"
-              data-bs-toggle="collapse"
-              type="button"
-      >
+      <a class="navbar-brand" href="/"><img height="75" width="215" src="../images/Logo_site.png"/></a>
+      <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
+              data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav me-auto">
+        <ul class="navbar-nav mx-2 my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
           <li class="nav-item">
-            <a class="nav-link" href="/">Accueil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Docs</a>
+            <a aria-current="page" class="nav-link active" href="/">Accueil</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">À propos</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contactus.html">Horaire</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Wikis</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FAQs</a>
+          </li>
         </ul>
-        <a class="btn btn-outline-light" href="contactus.html">Nous contacter</a>
       </div>
+      <a class="btn btn-outline-light mx-4" href="contactus.html">Nous contacter</a>
     </div>
   </nav>
-  <div class="p-2 p-md-5">
-    <div class="container py-3 py-md-5">
-      <h1 class="display-2 fw-bold">À propos</h1>
-      <p class="text-white-50 fs-2">
-        Tout à propos du Centre Aide en Informatique
+  <div class="bg-primary">
+    <div class="container-fluid">
+      <h1 class="display-2 fw-bold p-2">À propos</h1>
+      <p class="text-black-70 fs-2 p-2">
+        Tout à propos du Centre d'aide Informatique.
       </p>
     </div>
   </div>
-</header>
-<main class="container col col-md-5 mx-auto">
+<main class="container">
   <div class="mb-4" id="qui-somme-nous">
     <h3 class="mb-3">Qui somme-nous?</h3>
     <p>
