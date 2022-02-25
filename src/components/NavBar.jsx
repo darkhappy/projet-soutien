@@ -6,17 +6,17 @@ export default function NavBar() {
   return (
     <Navbar className={"navbar navbar-expand-lg navbar-light bg-primary bg-gradient shadow-lg sticky-top"}>
       <Container fluid>
-        <Navbar.Brand href="../routes/Home.jsx"><img style={{height:'125px',width:'355px'}} src={ LogoImage }/></Navbar.Brand>
+        <Navbar.Brand href="../routes/Home.jsx"><img style={{height:'40px',width:'120px'}} src={ LogoImage }/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
-            <Nav.Link href="#">Accuiel</Nav.Link>
+          <Nav className="me-auto fs-4">
+            <Nav.Link href="#">Accueil</Nav.Link>
             <Nav.Link href="#">À propos</Nav.Link>
             <Nav.Link href="#">Wikis</Nav.Link>
             <Nav.Link href="#">FAQs</Nav.Link>
           </Nav>
         </Navbar.Collapse>
-        <Button>Contact</Button>
+        <Button className="btn btn-primary btn-lg btn-outline-dark">Contactez-nous !</Button>
       </Container>
     </Navbar>
   );
