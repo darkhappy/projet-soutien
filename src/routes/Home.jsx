@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <Header
         title="Accueil"
-        subtitle="Bienvenue au Centre d'aide Informatique"
+        subtitle="Bienvenue au Centre d'Aide Informatique"
       />
       <Container>
         <h1 className="mt-auto">JP va nous parler de ses animes préférés !</h1>

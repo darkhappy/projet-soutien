@@ -6,7 +6,7 @@ export default function Contact() {
     <>
       <Header
         title="Nous contactez"
-        subtitle="Nos coordonées et notre horaire"
+        subtitle="Nos coordonnées et notre horaire"
       />
       <div className="container">
         <div className="timetable-img text-center"></div>
