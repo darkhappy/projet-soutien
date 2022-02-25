@@ -1,27 +1,21 @@
-import { Link } from "react-router-dom";
-
+import { Navbar } from 'react-bootstrap';
+import { Nav } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
+import LogoImage from "../img/Logo_site.png";
 export default function NavBar() {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient sticky-top">
-      <div className="container-fluid">
-        <a className="navbar-brand">Centre Aide Informatique</a>
-        <button
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-          className="navbar-toggler"
-          data-bs-target="#navbarNav"
-          data-bs-toggle="collapse"
-          type="button"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
-        <div className="collapse navbar-collapse" id="navbarNav">
-          <Link to="/">Home</Link>
-          <Link to="/about">About</Link>
-          <Link to="/contact">Contact us</Link>
-        </div>
-      </div>
-    </nav>
+    <Navbar className={"navbar navbar-expand-lg navbar-light bg-primary bg-gradient shadow-lg sticky-top"}>
+      <Container fluid>
+        <Navbar.Brand href="../routes/Home.jsx"><img style={{height:'125px',width:'355px'}} src={ LogoImage }/></Navbar.Brand>
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav className="me-auto">
+            <Nav.Link href="#">Home</Nav.Link>
+            <Nav.Link href="#">Link</Nav.Link>
+            <Nav.Link href="#">Link</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
   );
 }

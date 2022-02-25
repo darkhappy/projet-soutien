@@ -1,11 +1,13 @@
 import Header from "../components/Header";
+import NavBar from "../components/NavBar";
 
 export default function Home() {
   return (
     <>
+      <NavBar />
       <Header
-        title="Le Centre d'Aide en Informatique"
-        subtitle="Yo c'est le CAI c'est cool"
+        title="Accueil"
+        subtitle="Bienvenue au Centre d'aide Informatique"
       />
       <div className="container">
         <h1 className="mt-auto">JP va nous parler de ses animes préférés !</h1>

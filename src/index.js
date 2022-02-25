@@ -1,4 +1,4 @@
-import "../scss/styles.scss";
+import "./scss/styles.scss";
 
 import { render } from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
