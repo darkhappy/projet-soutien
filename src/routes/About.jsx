@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import { Container } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -7,7 +8,7 @@ export default function About() {
         title="À propos"
         subtitle="Tous à propos du Centre Aide en Informatique"
       />
-      <main className="container col col-md-5 mx-auto">
+      <Container>
         <div className="mb-4" id="qui-somme-nous">
           <h3 className="mb-3">Qui somme-nous?</h3>
           <p>
@@ -124,7 +125,7 @@ export default function About() {
             </li>
           </ul>
         </div>
-      </main>
+      </Container>
     </>
   );
 }

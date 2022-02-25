@@ -1,15 +1,14 @@
 import Header from "../components/Header";
-import NavBar from "../components/NavBar";
+import { Container } from "react-bootstrap";
 
 export default function Home() {
   return (
     <>
-      <NavBar />
       <Header
         title="Accueil"
         subtitle="Bienvenue au Centre d'aide Informatique"
       />
-      <div className="container">
+      <Container>
         <h1 className="mt-auto">JP va nous parler de ses animes préférés !</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque at
@@ -71,7 +70,7 @@ export default function Home() {
           urna non neque. Nullam blandit condimentum lorem, at gravida velit
           posuere quis.
         </p>
-      </div>
+      </Container>
     </>
   );
 }
