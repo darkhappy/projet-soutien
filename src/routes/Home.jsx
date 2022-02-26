@@ -1,9 +1,18 @@
 import Header from "../components/Header";
 import { Container } from "react-bootstrap";
+import LogoImage from "../img/Shield_Logo.png";
+import "../scss/loader.css";
+import "../js/loader.js";
 
 export default function Home() {
   return (
     <>
+    <div id="overlay">
+      <div id="overlay-logo">
+        <img src={LogoImage}></img>
+        <p>Centre d'Aide Informatique</p>
+      </div>
+    </div>
       <Header
         title="Accueil"
         subtitle="Bienvenue au Centre d'Aide Informatique"
