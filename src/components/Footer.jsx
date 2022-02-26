@@ -1,14 +1,14 @@
 import Card from 'react-bootstrap/Card';
 import Logo from "../img/Shield_Logo.png"
 export default function NavBar() {
-  return (
+  return (    
     <Card>
       <Card.Footer>
-        <footer className="navbar navbar-inverse navbar-fixed-bottom">
-          <p className="h5 text-muted">© 2022 Cégep régional de Lanaudière à Joliette</p>
-          <a href="/"><img height={52} width={43} src={Logo} alt="Logo" /></a>
-          <a className="h5 nav-link text-muted" href="https://cegep-lanaudiere-joliette.omnivox.ca">Retour à Omnivox</a>
-        </footer>
+          <div class="row">
+            <div class="col my-auto text-start"><p className="h5 text-muted">©2022 Cégep régional de Lanaudière à Joliette</p></div>
+            <div class="col my-auto"><a href="/"><img height={52} width={43} src={Logo} className="d-block mx-auto" alt="Logo" /></a></div>
+            <div class="col my-auto text-end"><a className="h5 text-muted nav-link" href="https://cegep-lanaudiere-joliette.omnivox.ca">Retour à Omnivox</a></div>
+          </div>
       </Card.Footer>
     </Card>
   );
