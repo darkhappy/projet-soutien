@@ -1,28 +1,28 @@
 body {
-    margin: 0;
+  margin: 0;
 }
 #overlay {
-    display: none;
-    font-size: 50px;
-    color: #2c7fb6;
-    position: fixed;
-    top: 0;
-    bottom: 0px;
-    width: 100%;
-    height: 100%;
-    background-color: black;
-    z-index: 9999;
+  display: none;
+  font-size: 50px;
+  color: #2c7fb6;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  z-index: 9999;
 }
 #overlay-logo {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 .hide-overlay {
-    visibility: hidden;
-    opacity: 0;
-    transition: visibility 0.5s, opacity 0.5s linear;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0.5s, opacity 0.5s linear;
 }

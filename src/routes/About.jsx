@@ -12,13 +12,13 @@ export default function About() {
         <div className="mb-4" id="qui-somme-nous">
           <h3 className="mb-3">Qui sommes-nous?</h3>
           <p>
-            Le CAI est un service offert aux étudiants du Cégep de Lanaudière à Joliette
-            pour soutenir leurs apprentissages.
+            Le CAI est un service offert aux étudiants du Cégep de Lanaudière à
+            Joliette pour soutenir leurs apprentissages.
           </p>
           <p>
-            Nous sommes des étudiants passionnés de l'informatique prêt à vous aider
-            peut importe le problème que vous rencontrerez. Vous trouverez réponses
-            et conseils à vos questions.
+            Nous sommes des étudiants passionnés de l'informatique prêt à vous
+            aider peut importe le problème que vous rencontrerez. Vous trouverez
+            réponses et conseils à vos questions.
           </p>
         </div>
 
@@ -30,8 +30,8 @@ export default function About() {
               personnalisé.
             </li>
             <li>
-              Offrir aux étudiants de la technique une expérience dite de terrain de
-              support informatique.
+              Offrir aux étudiants de la technique une expérience dite de
+              terrain de support informatique.
             </li>
             <li>
               Permettre l'entraide dans la communauté du cégep au niveau
@@ -53,10 +53,11 @@ export default function About() {
         <div className="mb-4" id="forum">
           <h3 className="mb-3">Le forum</h3>
           <p>
-            Le forum, est une plateforme de discussion entre toute clientèle et les membres
-            du CAI. Ce forum permet de répondre aux questions et aux problèmes rencontrés
-            par la clientèle. Les messages sont publiés par les utilisateurs du site ainsi
-            que par les mebmres modérateurs du CAI.
+            Le forum, est une plateforme de discussion entre toute clientèle et
+            les membres du CAI. Ce forum permet de répondre aux questions et aux
+            problèmes rencontrés par la clientèle. Les messages sont publiés par
+            les utilisateurs du site ainsi que par les mebmres modérateurs du
+            CAI.
           </p>
         </div>
 
@@ -71,18 +72,18 @@ export default function About() {
           </p>
           <ul>
             <li>
-              Attendu que je reconnais qu'aucune responsabilité ne peut être 
-              imputée à l’étudiante, à l’étudiant, au professeur chargé du CAI 
+              Attendu que je reconnais qu'aucune responsabilité ne peut être
+              imputée à l’étudiante, à l’étudiant, au professeur chargé du CAI
               ou au Cégep régional de Lanaudière concernant les services rendus.
             </li>
             <li>
-              Attendu que je reconnais qu'aucune compensation de quelque nature 
-              que ce soit ne peut être exigée ou acceptée par la personne qui 
+              Attendu que je reconnais qu'aucune compensation de quelque nature
+              que ce soit ne peut être exigée ou acceptée par la personne qui
               donne ou qui reçoit le service.
             </li>
             <li>
-              Attendu que je reconnais qu'il n'y a aucune garantie d’exactitude 
-              n’est donnée concernant les articles inscrits dans la documentaton 
+              Attendu que je reconnais qu'il n'y a aucune garantie d’exactitude
+              n’est donnée concernant les articles inscrits dans la documentaton
               du CAI.
             </li>
             <li>

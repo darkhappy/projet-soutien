@@ -7,12 +7,12 @@ import "../js/loader.js";
 export default function Home() {
   return (
     <>
-    <div id="overlay">
-      <div id="overlay-logo">
-        <img src={LogoImage}></img>
-        <p>Centre d'Aide Informatique</p>
+      <div id="overlay">
+        <div id="overlay-logo">
+          <img src={LogoImage} alt="Logo du site"/>
+          <p>Centre d'Aide Informatique</p>
+        </div>
       </div>
-    </div>
       <Header
         title="Accueil"
         subtitle="Bienvenue au Centre d'Aide Informatique"
