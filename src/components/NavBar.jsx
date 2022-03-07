@@ -14,16 +14,14 @@ export default function NavBar() {
       <Container fluid>
         <LinkContainer to={"/"}>
           <Navbar.Brand>
-            <img
-              height={90}
-              width={78}
-              src={LogoImage}
-              className="d-inline-block align-top"
-              alt="Logo"
-            />
-            <div className="d-inline-block">
-              <p className="fs-1 mb-0 mx-2 mt-0 fw-bolder ">C.A.I.</p>
-              <p className="fs-5 mt-0 mb-0">- Centre d'Aide Informatique -</p>
+            <div className="d-inline-block align-middle">
+              <img
+                height={90}
+                width={78}
+                src={LogoImage}
+                alt="Logo"
+              />
+              <p style={{fontSize: '4em'}} className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle">C.A.I.</p>
             </div>
           </Navbar.Brand>
         </LinkContainer>
