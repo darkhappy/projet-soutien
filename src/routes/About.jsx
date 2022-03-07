@@ -1,4 +1,5 @@
 import Header from "../components/Header";
+import { Container } from "react-bootstrap";
 
 export default function About() {
   return (
@@ -7,24 +8,21 @@ export default function About() {
         title="À propos"
         subtitle="Tous à propos du Centre Aide en Informatique"
       />
-      <main className="container col col-md-5 mx-auto">
-        <div className="mb-4" id="qui-somme-nous">
-          <h3 className="mb-3">Qui somme-nous?</h3>
+      <Container>
+        <div className="p-3 m-3 border border-2 border-radius-5" id="qui-somme-nous">
+          <h3 className="mb-3">Qui sommes-nous?</h3>
           <p>
-            Afin d'offrir aux étudiants de la technique une expérience réaliste
-            en soutien technique, le CAI fut fondé.
+            Le CAI est un service offert aux étudiants du Cégep de Lanaudière à
+            Joliette pour soutenir leurs apprentissages.
           </p>
           <p>
-            Nous sommes un ensemble d'étudiants, ayant une certaine connaissance
-            dans le domaine informatique, prêt à vous aidez dans tous vos
-            problèmes qui sont de près ou de loins liés à l'informatique. Allant
-            des problèmes simples aux plus compliqués, il nous fera toujours
-            plaisir de vous servir en vous offrant des informations, des
-            explications et des solutions à vos dilemmes informatiques.
+            Nous sommes des étudiants passionnés de l'informatique prêt à vous
+            aider peut importe le problème que vous rencontrerez. Vous trouverez
+            réponses et conseils à vos questions.
           </p>
         </div>
 
-        <div className="mb-4" id="objectifs">
+        <div className="p-3 m-3 border border-2 border-radius-5" id="objectifs">
           <h3 className="mb-3">Les objectifs du CAI</h3>
           <ul>
             <li>
@@ -32,42 +30,38 @@ export default function About() {
               personnalisé.
             </li>
             <li>
-              Offrir aux étudiants de la technique une expérience réaliste de
-              support informatique.
+              Offrir aux étudiants de la technique une expérience dite de
+              terrain de support informatique.
             </li>
             <li>
-              Permettre l'entre-aide dans la communauté du cégep au niveau
-              informatique, à travers le CAI
+              Permettre l'entraide dans la communauté du cégep au niveau
+              informatique, à travers le CAI.
             </li>
           </ul>
         </div>
 
-        <div className="mb-4" id="clientele">
+        <div className="p-3 m-3 border border-2 border-radius-5" id="clientele">
           <h3 className="mb-3">La clientèle cible</h3>
           <p>
-            Nous sommes prèt à venir en aide à tout professeur, étudiant,
-            membres du personnel ayant des difficultés avec son/ses appareils
-            électroniques. Peu importe le problème, peu importe la personne,
-            nous sommes là pour vous venir en aide. Il nous fera tout autant
-            plaisir de distribuer notre aide à quiconque qui fera usage de nos
-            services en lignes, peu importe si il/elle fait parti(e) de la
-            communauté du cégep.
+            Le CAI aidera dans un premier temps l'ensemble des étudiants du
+            Cégep Lanaudière à Joliette. Par la suite, nous répondrons à toute
+            personne ayant des questions ou des problèmes liés à l'informatique
+            et nous fournirons de l'aide personnalisée appropriée.
           </p>
         </div>
 
-        <div className="mb-4" id="forum">
+        <div className="p-3 m-3 border border-2 border-radius-5" id="forum">
           <h3 className="mb-3">Le forum</h3>
           <p>
-            Le forum, est une plateforme de discussion entre les membres du
-            soutien technique du CAI et toute clientèle. Ce forum permet de
-            répondre à toutes les questions qui sont publiées et ce par
-            quiconque, autant modérateurs qu'autres étudiants. Toutes réponses
-            données par un utilisateur non-modérateur seront comfirmées par un
-            modérateur pour permettre une réponse précise et complète.
+            Le forum, est une plateforme de discussion entre toute clientèle et
+            les membres du CAI. Ce forum permet de répondre aux questions et aux
+            problèmes rencontrés par la clientèle. Les messages sont publiés par
+            les utilisateurs du site ainsi que par les mebmres modérateurs du
+            CAI.
           </p>
         </div>
 
-        <div className="mb-4" id="terms">
+        <div className="p-3 m-3 border border-2 border-radius-5" id="terms">
           <h3 className="mb-3">Termes et conditions d'utilisations</h3>
           <p>
             Afin de bénéficier des services offerts par le centre d’aide en
@@ -78,18 +72,19 @@ export default function About() {
           </p>
           <ul>
             <li>
-              Aucune responsabilité ne peut être imputée à l’étudiante, à
-              l’étudiant, au professeur chargé du CAI ou au Cégep régional de
-              Lanaudière concernant les services rendus.
+              Attendu que je reconnais qu'aucune responsabilité ne peut être
+              imputée à l’étudiante, à l’étudiant, au professeur chargé du CAI
+              ou au Cégep régional de Lanaudière concernant les services rendus.
             </li>
             <li>
-              Aucune compensation de quelque nature que ce soit ne peut être
-              exigée ou acceptée par la personne qui donne ou qui reçoit le
-              service.
+              Attendu que je reconnais qu'aucune compensation de quelque nature
+              que ce soit ne peut être exigée ou acceptée par la personne qui
+              donne ou qui reçoit le service.
             </li>
             <li>
-              Aucune garantie d’exactitude n’est donnée concernant les articles
-              inscrits dans la documentaton du CAI.
+              Attendu que je reconnais qu'il n'y a aucune garantie d’exactitude
+              n’est donnée concernant les articles inscrits dans la documentaton
+              du CAI.
             </li>
             <li>
               Attendu que je reconnais que le Cégep régional de Lanaudière
@@ -124,7 +119,7 @@ export default function About() {
             </li>
           </ul>
         </div>
-      </main>
+      </Container>
     </>
   );
 }

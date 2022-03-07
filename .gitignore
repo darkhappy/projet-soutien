@@ -267,3 +267,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# fuck off .idea
+.idea
+package-lock.json
