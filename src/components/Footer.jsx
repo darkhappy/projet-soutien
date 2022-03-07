@@ -4,14 +4,13 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <Container fluid className="border-top border-2">
+    <div className="mt-auto pt-3">
+      <Container fluid className="border-top border-2 align-middle">
         <Row className="align-content-center my-2">
-          <Col sm={5}>
-            <p className="text-muted">
-              ©2022 Cégep régional de Lanaudière à Joliette
-            </p>
+          <Col className="my-auto">
+            ©2022 Cégep régional de Lanaudière à Joliette
           </Col>
-          <Col sm={2}>
+          <Col>
             <Link to="/">
               <img
                 height={52}
@@ -22,7 +21,7 @@ export default function Footer() {
               />
             </Link>
           </Col>
-          <Col sm={5} className="text-end">
+          <Col className="text-end">
             <a
               className="text-muted nav-link"
               href="https://cegep-lanaudiere-joliette.omnivox.ca"
@@ -31,6 +30,7 @@ export default function Footer() {
             </a>
           </Col>
         </Row>
-    </Container>
+      </Container>
+    </div>
   );
 }
