@@ -8,8 +8,8 @@ export default function About() {
         title="À propos"
         subtitle="Tous à propos du Centre Aide en Informatique"
       />
-      <Container>
-        <div className="mb-4" id="qui-somme-nous">
+      <Container style={{fontSize: '1.4em'}}>
+        <div className="p-3 border border-2 border-radius-5" id="qui-somme-nous">
           <h3 className="mb-3">Qui sommes-nous?</h3>
           <p>
             Le CAI est un service offert aux étudiants du Cégep de Lanaudière à
@@ -22,7 +22,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="mb-4" id="objectifs">
+        <div className="p-3 border border-2 border-radius-5" id="objectifs">
           <h3 className="mb-3">Les objectifs du CAI</h3>
           <ul>
             <li>
@@ -40,7 +40,7 @@ export default function About() {
           </ul>
         </div>
 
-        <div className="mb-4" id="clientele">
+        <div className="p-3 border border-2 border-radius-5" id="clientele">
           <h3 className="mb-3">La clientèle cible</h3>
           <p>
             Le CAI aidera dans un premier temps l'ensemble des étudiants du
@@ -50,7 +50,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="mb-4" id="forum">
+        <div className="p-3 border border-2 border-radius-5" id="forum">
           <h3 className="mb-3">Le forum</h3>
           <p>
             Le forum, est une plateforme de discussion entre toute clientèle et
@@ -61,7 +61,7 @@ export default function About() {
           </p>
         </div>
 
-        <div className="mb-4" id="terms">
+        <div className="p-3 border border-2 border-radius-5" id="terms">
           <h3 className="mb-3">Termes et conditions d'utilisations</h3>
           <p>
             Afin de bénéficier des services offerts par le centre d’aide en

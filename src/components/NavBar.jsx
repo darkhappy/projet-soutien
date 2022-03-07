@@ -38,12 +38,14 @@ export default function NavBar() {
             </LinkContainer>
             <Nav.Link href="#">Wikis</Nav.Link>
             <Nav.Link href="#">FAQs</Nav.Link>
+            <LinkContainer to={"contact"}>
+              <Nav.Link>
+                <Button variant="outline-primary" size="lg" >
+                  Contactez-nous !
+                </Button>
+              </Nav.Link>
+            </LinkContainer>
           </Nav>
-          <LinkContainer to={"contact"}>
-            <Button variant="outline-primary" size="lg" >
-              Contactez-nous !
-            </Button>
-          </LinkContainer>
         </Navbar.Collapse>
       </Container>
     </Navbar>
