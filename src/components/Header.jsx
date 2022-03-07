@@ -1,5 +1,4 @@
 import { Container } from "react-bootstrap";
-import LogoImage from "../img/Shield_Logo.png";
 
 export default function Header(props) {
   return (
