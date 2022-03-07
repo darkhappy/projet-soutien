@@ -1,11 +1,12 @@
 import Header from "../components/Header";
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import LogoImage from "../img/Shield_Logo.png";
 import Blondinais from "../img/Blondinais.jpg";
 import Confus from "../img/black.jpg";
 import gang from "../img/coding_gang.jpg";
 import "../scss/loader.css";
 import "../js/loader.js";
+import CurrentCard from "../components/CurrentCard";
 
 export default function Home() {
   return (
@@ -21,6 +22,16 @@ export default function Home() {
         subtitle="Bienvenue au Centre d'Aide Informatique"
       />
       <Container className="my-3">
+
+        <Row>
+          <Col>
+            <CurrentCard location="biblio" />
+          </Col>
+          <Col>
+            <CurrentCard location="C-220" />
+          </Col>
+        </Row>
+
         <div style={{fontSize: '1.4em'}} className="p-3 border border-2 border-radius-5">
           <p>Bienvenue sur le site du CAI. Ici vous pourrez connaître nos horaires pour pouvoir nous contacter. Vous pourrez aussi avoir accès à notre documentation pour aider dans certains problèmes informatiques que l’on peut rencontrer dans la vie de tous les jours, ne serait-ce du côté réseau, logiciel et gestion de bureau. Vous pourrez ainsi grâce à ce site vous familiariser avec l’informatique. Sachant que l’informatique est en expansion dans les domaines de travail, il est rendu primordial de s’y connaître. </p>
           <p>Il y a aussi une section « À propos » dans notre menu qui vous permettra dans connaître un peu plus sur nous, nos objectifs, etc.</p>
