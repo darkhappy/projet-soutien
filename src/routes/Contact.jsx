@@ -4,6 +4,7 @@ import schedule from "../components/schedule.json";
 import { Helmet } from "react-helmet";
 
 const TITLE = "Nous contacter";
+const SUBTITLE = "Nos coordonnées et notre horaire";
 const colors = ["bg-sky", "bg-green", "bg-yellow", "bg-purple", "bg-pink", "bg-lightred"];
 const hours = ["10:05", "11:00", "11:55", "12:50", "13:45", "14:40", "15:35"];
 
@@ -15,7 +16,7 @@ export default function Contact() {
       </Helmet>
       <Header
         title={TITLE}
-        subtitle="Nos coordonnées et notre horaire"
+        subtitle={SUBTITLE}
       />
       <div className="container">
         <div className="timetable-img text-center"></div>

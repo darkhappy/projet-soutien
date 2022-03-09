@@ -10,6 +10,7 @@ import CurrentCard from "../components/CurrentCard";
 import { Helmet } from "react-helmet";
 
 const TITLE = "Accueil";
+const SUBTITLE = "Bienvenue au Centre d'Aide Informatique";
 
 export default function Home() {
   return (
@@ -25,7 +26,7 @@ export default function Home() {
       </Helmet>
       <Header
         title={TITLE}
-        subtitle="Bienvenue au Centre d'Aide Informatique"
+        subtitle={SUBTITLE}
       />
       <Container className="my-3">
         <div className="p-3 border border-2 border-radius-5">

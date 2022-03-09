@@ -3,6 +3,7 @@ import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
 const TITLE = "À propos";
+const SUBTITLE = "Tous à propos du Centre Aide en Informatique";
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
       </Helmet>
       <Header
         title={TITLE}
-        subtitle="Tous à propos du Centre Aide en Informatique"
+        subtitle={SUBTITLE}
       />
       <Container>
         <div className="p-3 m-3 border border-2 border-radius-5" id="qui-somme-nous">
