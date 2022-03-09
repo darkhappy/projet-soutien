@@ -24,7 +24,6 @@ export default function Contact() {
         subtitle={SUBTITLE}
       />
       <div className="container">
-        <div className="timetable-img text-center"></div>
         <div className="table-responsive">
           <table className="table table-bordered text-center">
             <thead>
