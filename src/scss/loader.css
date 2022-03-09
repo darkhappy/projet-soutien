@@ -2,7 +2,7 @@ body {
   margin: 0;
 }
 #overlay {
-  display: none;
+  display: block;
   font-size: 50px;
   color: #2c7fb6;
   position: fixed;
