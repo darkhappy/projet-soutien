@@ -16,12 +16,12 @@ export default function NavBar() {
           <Navbar.Brand>
             <div className="d-inline-block align-middle">
               <img
-                height={90}
-                width={78}
+                height={65}
+                width={55}
                 src={LogoImage}
                 alt="Logo"
               />
-              <p style={{fontSize: '4em'}} className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle">C.A.I.</p>
+              <p style={{fontSize: '2.5em'}} className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle">C.A.I.</p>
             </div>
           </Navbar.Brand>
         </LinkContainer>
@@ -34,7 +34,7 @@ export default function NavBar() {
             <LinkContainer to={"about"}>
               <Nav.Link>À propos</Nav.Link>
             </LinkContainer>
-            <Nav.Link href="#">Wikis</Nav.Link>
+            <Nav.Link href="http://documentation.etu.cegep-lanaudiere.qc.ca/index.php?title=Accueil">Wikis</Nav.Link>
             <Nav.Link href="#">FAQs</Nav.Link>
             <LinkContainer to={"contact"}>
               <Nav.Link>

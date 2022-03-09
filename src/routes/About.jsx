@@ -1,12 +1,19 @@
 import Header from "../components/Header";
 import { Container } from "react-bootstrap";
+import { Helmet } from "react-helmet";
+
+const TITLE = "À propos";
+const SUBTITLE = "Tous à propos du Centre Aide en Informatique";
 
 export default function About() {
   return (
-    <>
+    <>      
+      <Helmet>
+        <title>{TITLE}</title>
+      </Helmet>
       <Header
-        title="À propos"
-        subtitle="Tous à propos du Centre Aide en Informatique"
+        title={TITLE}
+        subtitle={SUBTITLE}
       />
       <Container>
         <div className="p-3 m-3 border border-2 border-radius-5" id="qui-somme-nous">

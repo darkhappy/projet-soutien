@@ -2,11 +2,15 @@ import Header from "../components/Header";
 import { Col, Container, Row } from "react-bootstrap";
 import LogoImage from "../img/Shield_Logo.png";
 import Blondinais from "../img/Blondinais.jpg";
-import Confus from "../img/black.jpg";
+import Confus from "../img/confus.jpg";
 import gang from "../img/coding_gang.jpg";
 import "../scss/loader.css";
 import "../js/loader.js";
 import CurrentCard from "../components/CurrentCard";
+import { Helmet } from "react-helmet";
+
+const TITLE = "Accueil";
+const SUBTITLE = "Bienvenue au Centre d'Aide Informatique";
 
 export default function Home() {
   return (
@@ -16,10 +20,13 @@ export default function Home() {
           <img src={LogoImage} alt="Logo du site"/>
           <p>Centre d'Aide Informatique</p>
         </div>
-      </div>
+      </div>      
+      <Helmet>
+        <title>{TITLE}</title>
+      </Helmet>
       <Header
-        title="Accueil"
-        subtitle="Bienvenue au Centre d'Aide Informatique"
+        title={TITLE}
+        subtitle={SUBTITLE}
       />
       <Container className="my-3">
         <div className="p-3 border border-2 border-radius-5">

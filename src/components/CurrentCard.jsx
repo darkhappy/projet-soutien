@@ -13,7 +13,7 @@ export default function CurrentCard({ location }) {
   let date = new Date(Date.now()).getDay();
 
   // Get the array of people of that week
-  let array = location === "C-220" ? schedule.c220 : schedule.biblio;
+  let array = location === "C-220" ? schedule.filter((a) => a.local === "c220") : schedule.filter((a) => a.local === "biblio");
   array = array.filter((a) =>
     a.day === date
   );
