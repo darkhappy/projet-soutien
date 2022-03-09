@@ -1,81 +1,92 @@
-{
-  "c220": [
-    {
-      "person": "Olivier Phoenix",
-      "start": "11:00",
-      "day": 1
-    },
-    {
-      "person": "Gregory St-Facli",
-      "start": "11:55",
-      "day": 1
-    },
-    {
-      "person": "Louis-Félix Veillette",
-      "start": "11:55",
-      "day": 3
-    },
-    {
-      "person": "Jean-Philippe Miguel-Gagnon",
-      "start": "12:50",
-      "day": 3
-    },
-    {
-      "person": "Raphaël Sincerny",
-      "start": "11:55",
-      "day": 4
-    },
-    {
-      "person": "Marc-Antoine Gagnon",
-      "start": "12:50",
-      "day": 4
-    },
-    {
-      "person": "Ulric Richer",
-      "start": "13:45",
-      "day": 4
-    }
-  ],
-  "biblio": [
-    {
-      "person": "Gabriel Daoust",
-      "start": "11:00",
-      "day": 1
-    },
-    {
-      "person": "Redgy Pérard",
-      "start": "11:55",
-      "day": 1
-    },
-    {
-      "person": "Bryan Maestre",
-      "start": "14:40",
-      "day": 1
-    },
-    {
-      "person": "Eugène-Emmanuël Dubuc",
-      "start": "11:55",
-      "day": 3
-    },
-    {
-      "person": "Raphaël Rail",
-      "start": "11:55",
-      "day": 4
-    },
-    {
-      "person": "Isabelle Provost",
-      "start": "12:50",
-      "day": 4
-    },
-    {
-      "person": "Nikolas D'Amato",
-      "start": "13:45",
-      "day": 4
-    },
-    {
-      "person": "Thomas Laporte",
-      "start": "11:55",
-      "day": 5
-    }
-  ]
-}
+[
+  {
+    "person": "Olivier Phoenix",
+    "start": "11:00",
+    "day": 1,
+    "local": "c220"
+  },
+  {
+    "person": "Gregory St-Facli",
+    "start": "11:55",
+    "day": 1,
+    "local": "c220"
+  },
+  {
+    "person": "Louis-Félix Veillette",
+    "start": "11:55",
+    "day": 3,
+    "local": "c220"
+  },
+  {
+    "person": "Jean-Philippe Miguel-Gagnon",
+    "start": "12:50",
+    "day": 3,
+    "local": "c220"
+  },
+  {
+    "person": "Raphaël Sincerny",
+    "start": "11:55",
+    "day": 4,
+    "local": "c220"
+  },
+  {
+    "person": "Marc-Antoine Gagnon",
+    "start": "12:50",
+    "day": 4,
+    "local": "c220"
+  },
+  {
+    "person": "Ulric Richer",
+    "start": "13:45",
+    "day": 4,
+    "local": "c220"
+  },
+  {
+    "person": "Gabriel Daoust",
+    "start": "11:00",
+    "day": 1,
+    "local": "biblio"
+  },
+  {
+    "person": "Redgy Pérard",
+    "start": "11:55",
+    "day": 1,
+    "local": "biblio"
+  },
+  {
+    "person": "Bryan Maestre",
+    "start": "14:40",
+    "day": 1,
+    "local": "biblio"
+  },
+  {
+    "person": "Eugène-Emmanuël Dubuc",
+    "start": "11:55",
+    "day": 3,
+    "local": "biblio"
+  },
+  {
+    "person": "Raphaël Rail",
+    "start": "11:55",
+    "day": 4,
+    "local": "biblio"
+  },
+  {
+    "person": "Isabelle Provost",
+    "start": "12:50",
+    "day": 4,
+    "local": "biblio"
+  },
+  {
+    "person": "Nikolas D'Amato",
+    "start": "13:45",
+    "day": 4,
+    "local": "biblio"
+  },
+  {
+    "person": "Thomas Laporte",
+    "start": "11:55",
+    "day": 5,
+    "local": "biblio"
+  }
+]
