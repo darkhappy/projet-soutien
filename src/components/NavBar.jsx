@@ -34,7 +34,7 @@ export default function NavBar() {
             <LinkContainer to={"about"}>
               <Nav.Link>À propos</Nav.Link>
             </LinkContainer>
-            <Nav.Link href="#">Wikis</Nav.Link>
+            <Nav.Link href="http://documentation.etu.cegep-lanaudiere.qc.ca/index.php?title=Accueil">Wikis</Nav.Link>
             <Nav.Link href="#">FAQs</Nav.Link>
             <LinkContainer to={"contact"}>
               <Nav.Link>
