@@ -16,12 +16,12 @@ export default function NavBar() {
           <Navbar.Brand>
             <div className="d-inline-block align-middle">
               <img
-                height={90}
-                width={78}
+                height={65}
+                width={55}
                 src={LogoImage}
                 alt="Logo"
               />
-              <p style={{fontSize: '4em'}} className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle">C.A.I.</p>
+              <p style={{fontSize: '2.5em'}} className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle">C.A.I.</p>
             </div>
           </Navbar.Brand>
         </LinkContainer>
