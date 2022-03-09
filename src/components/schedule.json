@@ -1,0 +1,107 @@
+[
+  {
+    "person": "Olivier Phoenix",
+    "start": "11:00",
+    "day": 1,
+    "local": "c220",
+    "color": "bg-sky"
+  },
+  {
+    "person": "Gregory St-Facli",
+    "start": "11:55",
+    "day": 1,
+    "local": "c220",
+    "color": "bg-orange"
+  },
+  {
+    "person": "Louis-Félix Veillette",
+    "start": "11:55",
+    "day": 3,
+    "local": "c220",
+    "color": "bg-green" 
+  },
+  {
+    "person": "Jean-Philippe Miguel-Gagnon",
+    "start": "12:50",
+    "day": 3,
+    "local": "c220",
+    "color": "bg-yellow"
+  },
+  {
+    "person": "Raphaël Sincerny",
+    "start": "11:55",
+    "day": 4,
+    "local": "c220",
+    "color": "bg-pink"
+  },
+  {
+    "person": "Marc-Antoine Gagnon",
+    "start": "12:50",
+    "day": 4,
+    "local": "c220",
+    "color": "bg-purple"
+  },
+  {
+    "person": "Ulric Richer",
+    "start": "13:45",
+    "day": 4,
+    "local": "c220",
+    "color": "bg-lightred"
+  },
+  {
+    "person": "Gabriel Daoust",
+    "start": "11:00",
+    "day": 1,
+    "local": "biblio",
+    "color": "bg-red"
+  },
+  {
+    "person": "Redgy Pérard",
+    "start": "11:55",
+    "day": 1,
+    "local": "biblio",
+    "color": "bg-blue"
+  },
+  {
+    "person": "Bryan Maestre",
+    "start": "14:40",
+    "day": 1,
+    "local": "biblio",
+    "color": "bg-black"
+  },
+  {
+    "person": "Eugène-Emmanuël Dubuc",
+    "start": "11:55",
+    "day": 3,
+    "local": "biblio",
+    "color": "bg-gray"
+  },
+  {
+    "person": "Raphaël Rail",
+    "start": "11:55",
+    "day": 4,
+    "local": "biblio",
+    "color": "bg-brown"
+  },
+  {
+    "person": "Isabelle Provost",
+    "start": "12:50",
+    "day": 4,
+    "local": "biblio",
+    "color": "bg-lightgreen"
+  },
+  {
+    "person": "Nikolas D'Amato",
+    "start": "13:45",
+    "day": 4,
+    "local": "biblio",
+    "color": "bg-darkblue"
+  },
+  {
+    "person": "Thomas Laporte",
+    "start": "11:55",
+    "day": 5,
+    "local": "biblio",
+    "color": "bg-darkgreen"
+  }
+]

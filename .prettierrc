@@ -2,6 +2,5 @@
   "printWidth": 80,
   "singleQuote": false,
   "bracketSpacing": true,
-  "useTabs": false,
-  "tabWidth": 2
+  "htmlWhitespaceSensitivity": "ignore"
 }

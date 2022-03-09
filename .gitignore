@@ -72,7 +72,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 # Let's just remove .idea for now...
-.idea
+../.idea
 
 ### Linux template
 *~
@@ -267,3 +267,6 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# fuck off .idea
+.idea
+package-lock.json
