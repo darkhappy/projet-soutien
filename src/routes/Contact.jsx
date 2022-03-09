@@ -1,12 +1,17 @@
 import "../scss/schedule.css";
 import Header from "../components/Header";
 import schedule from "../components/schedule.json";
+import dayjs from "dayjs";
+import CustomParseFormat from "dayjs/plugin/customParseFormat";
 import { Helmet } from "react-helmet";
 
 const TITLE = "Nous contacter";
 const SUBTITLE = "Nos coordonnées et notre horaire";
-const colors = ["bg-sky", "bg-green", "bg-yellow", "bg-purple", "bg-pink", "bg-lightred"];
-const hours = ["10:05", "11:00", "11:55", "12:50", "13:45", "14:40", "15:35"];
+const hours = [];
+schedule.map((item) => {
+  var findItem = hours.find((x) => x === item.start);
+  if (!findItem) hours.push(item.start);
+});
 
 export default function Contact() {
   return (
@@ -40,24 +45,32 @@ export default function Contact() {
   );
 }
 function Horaire() {
+  dayjs.extend(CustomParseFormat);
   let numrows = 5
   return (
     <tbody>
       {
         hours.map((hour) => (
           <tr>
-            <td className="align-middle">{hour}</td>      
+            <td className="align-middle">
+              <div>{hour}</div>
+              <div>à</div>           
+              <div>{ dayjs(hour, "hh:mm").add(50, "m").format("hh:mm") }</div>
+            </td>         
             {
               [1,2,3,4,5].map((jour) => (
                 <td> {
                   (Disponibilite(jour, hour).length > 0) ? 
-                  <div>
-                    <span className={`${colors[Math.floor(Math.random() * colors.length)]} padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13`}>
-                      {Disponibilite(jour, hour)[0].local}
-                    </span>
-                    <div className="margin-10px-top font-size14">{hour}</div>
-                    <div className="font-size13 text-light-gray">{Disponibilite(jour, hour)[0].person}</div>
-                  </div> : null }
+                  <table className="d-flex justify-content-center">
+                    {
+                      Disponibilite(jour, hour).map((personne) => (
+                          <td>
+                            <div className={`${personne.color} padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13`}> {personne.person} </div>
+                            <div className="margin-10px-top font-size14">{personne.local}</div>
+                          </td>
+                      ))
+                    }
+                    </table> : null }
                 </td>
               ))
             }
@@ -68,7 +81,6 @@ function Horaire() {
   );
 }
 function Disponibilite(day, start) {
-  let dispo = null;
   return (
     schedule.filter((a) => a.day === day && a.start === start)
   );

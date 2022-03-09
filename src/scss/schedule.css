@@ -70,6 +70,38 @@
   background-color: #ff5722;
 }
 
+.bg-red {
+  background-color: #FF5733;
+}
+
+.bg-blue {
+  background-color: #0d6efd;
+}
+
+.bg-black {
+  background-color: #000000;
+}
+
+.bg-gray {
+  background-color: #808080;
+}
+
+.bg-brown {
+  background-color: #964B00;
+}
+
+.bg-lightgreen {
+  background-color: #90ee90;
+}
+
+.bg-darkblue {
+  background-color: #00008b;
+}
+
+.bg-darkgreen {
+  background-color: #013220;
+}
+
 .padding-15px-lr {
   padding-left: 15px;
   padding-right: 15px;
