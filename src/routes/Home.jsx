@@ -1,19 +1,15 @@
 import Header from "../components/Header";
 import { Col, Container, Row } from "react-bootstrap";
-import LogoImage from "../img/Shield_Logo.png";
-import Blondinais from "../img/Blondinais.jpg";
-import Confus from "../img/confus.jpg";
-import gang from "../img/coding_gang.jpg";
+import { logoShield, blondinais, codingGang, confus } from "../img";
 import "../scss/loader.css";
 import CurrentCard from "../components/CurrentCard";
 import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
 
-const TITLE = "Accueil";
-const SUBTITLE = "Bienvenue au Centre d'Aide Informatique";
-
 export default function Home() {
   const [overlay, setOverlay] = useState(true);
+  const title = "Accueil";
+  const subtitle = "Bienvenue au Centre d'Aide Informatique";
 
   useEffect(() => {
     setTimeout(() => setOverlay(false), 1250);
@@ -23,14 +19,14 @@ export default function Home() {
     <>
       <div id="overlay" className={overlay ? "overlay" : "hide-overlay"}>
         <div id="overlay-logo">
-          <img src={LogoImage} alt="Logo du site" />
+          <img src={logoShield} alt="Logo du site" />
           <p>Centre d'Aide Informatique</p>
         </div>
       </div>
       <Helmet>
-        <title>{TITLE}</title>
+        <title>{title}</title>
       </Helmet>
-      <Header title={TITLE} subtitle={SUBTITLE} />
+      <Header title={title} subtitle={subtitle} />
       <Container className="my-3">
         <div className="p-3 border border-2 border-radius-5">
           <p>
@@ -54,7 +50,7 @@ export default function Home() {
             <CurrentCard location="biblio" />
           </Col>
           <Col>
-            <CurrentCard location="C-220" />
+            <CurrentCard location="c220" />
           </Col>
         </Row>
 
@@ -62,21 +58,21 @@ export default function Home() {
           <div className="col-4">
             <img
               alt="Etudiant sur son portable"
-              src={Blondinais}
+              src={blondinais}
               className="w-100 h-100 img-fluid"
             />
           </div>
           <div className="col-4">
             <img
               alt="Etudiant sur son portable"
-              src={Confus}
+              src={confus}
               className="w-100 h-100 img-fluid"
             />
           </div>
           <div className="col-4">
             <img
               alt="Etudiant sur son ordinateur"
-              src={gang}
+              src={codingGang}
               className="w-100 h-100 img-fluid"
             />
           </div>

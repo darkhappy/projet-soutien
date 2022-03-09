@@ -1,6 +1,6 @@
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import LogoImage from "../img/Shield_Logo.png";
+import { logoShield } from "../img";
 
 export default function NavBar() {
   return (
@@ -15,13 +15,13 @@ export default function NavBar() {
         <LinkContainer to={"/"}>
           <Navbar.Brand>
             <div className="d-inline-block align-middle">
-              <img
-                height={65}
-                width={55}
-                src={LogoImage}
-                alt="Logo"
-              />
-              <p style={{fontSize: '2.5em'}} className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle">C.A.I.</p>
+              <img height={65} width={55} src={logoShield} alt="Logo" />
+              <p
+                style={{ fontSize: "2.5em" }}
+                className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle"
+              >
+                C.A.I.
+              </p>
             </div>
           </Navbar.Brand>
         </LinkContainer>
@@ -34,11 +34,13 @@ export default function NavBar() {
             <LinkContainer to={"about"}>
               <Nav.Link>À propos</Nav.Link>
             </LinkContainer>
-            <Nav.Link href="http://documentation.etu.cegep-lanaudiere.qc.ca/index.php?title=Accueil">Wikis</Nav.Link>
+            <Nav.Link href="http://documentation.etu.cegep-lanaudiere.qc.ca/index.php?title=Accueil">
+              Wikis
+            </Nav.Link>
             <Nav.Link href="#">FAQs</Nav.Link>
             <LinkContainer to={"contact"}>
               <Nav.Link>
-                <Button variant="outline-primary" size="lg" >
+                <Button variant="outline-primary" size="lg">
                   Contactez-nous !
                 </Button>
               </Nav.Link>

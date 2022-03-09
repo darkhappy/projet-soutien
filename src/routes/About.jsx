@@ -2,21 +2,21 @@ import Header from "../components/Header";
 import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 
-const TITLE = "À propos";
-const SUBTITLE = "Tous à propos du Centre Aide en Informatique";
-
 export default function About() {
+  const title = "À propos";
+  const subtitle = "Tous à propos du Centre Aide en Informatique";
+
   return (
-    <>      
+    <>
       <Helmet>
-        <title>{TITLE}</title>
+        <title>{title}</title>
       </Helmet>
-      <Header
-        title={TITLE}
-        subtitle={SUBTITLE}
-      />
+      <Header title={title} subtitle={subtitle} />
       <Container>
-        <div className="p-3 m-3 border border-2 border-radius-5" id="qui-somme-nous">
+        <div
+          className="p-3 m-3 border border-2 border-radius-5"
+          id="qui-somme-nous"
+        >
           <h3 className="mb-3">Qui sommes-nous?</h3>
           <p>
             Le CAI est un service offert aux étudiants du Cégep de Lanaudière à
