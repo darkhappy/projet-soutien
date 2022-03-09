@@ -7,6 +7,9 @@ import gang from "../img/coding_gang.jpg";
 import "../scss/loader.css";
 import "../js/loader.js";
 import CurrentCard from "../components/CurrentCard";
+import { Helmet } from "react-helmet";
+
+const TITLE = "Accueil";
 
 export default function Home() {
   return (
@@ -16,9 +19,12 @@ export default function Home() {
           <img src={LogoImage} alt="Logo du site"/>
           <p>Centre d'Aide Informatique</p>
         </div>
-      </div>
+      </div>      
+      <Helmet>
+        <title>{TITLE}</title>
+      </Helmet>
       <Header
-        title="Accueil"
+        title={TITLE}
         subtitle="Bienvenue au Centre d'Aide Informatique"
       />
       <Container className="my-3">

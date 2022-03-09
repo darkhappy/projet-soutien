@@ -1,11 +1,17 @@
 import "../scss/schedule.css";
 import Header from "../components/Header";
+import { Helmet } from "react-helmet";
+
+const TITLE = "Nous contacter";
 
 export default function Contact() {
   return (
-    <>
+    <>      
+      <Helmet>
+        <title>{TITLE}</title>
+      </Helmet>
       <Header
-        title="Nous contactez"
+        title={TITLE}
         subtitle="Nos coordonnées et notre horaire"
       />
       <div className="container">
