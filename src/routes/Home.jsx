@@ -1,6 +1,6 @@
 import Header from "../components/Header";
 import { Col, Container, Row } from "react-bootstrap";
-import { logoShield, blondinais, codingGang, confus } from "../img";
+import { logoShield, blondinais, Vieux, confus } from "../img";
 import "../scss/loader.css";
 import CurrentCard from "../components/CurrentCard";
 import { Helmet } from "react-helmet";
@@ -72,7 +72,7 @@ export default function Home() {
           <div className="col-4">
             <img
               alt="Etudiant sur son ordinateur"
-              src={codingGang}
+              src={Vieux}
               className="w-100 h-100 img-fluid"
             />
           </div>
