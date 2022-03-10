@@ -8,6 +8,7 @@ import { Helmet } from "react-helmet";
 const TITLE = "Nous contacter";
 const SUBTITLE = "Nos coordonnées et notre horaire";
 const hours = [];
+
 schedule.map((item) => {
   var findItem = hours.find((x) => x === item.start);
   if (!findItem) hours.push(item.start);
@@ -45,7 +46,6 @@ export default function Contact() {
 }
 function Horaire() {
   dayjs.extend(CustomParseFormat);
-  let numrows = 5
   return (
     <tbody>
       {
@@ -64,8 +64,8 @@ function Horaire() {
                     {
                       Disponibilite(jour, hour).map((personne) => (
                           <td className="border-0">
-                            <div className={`${personne.color} padding-5px-tb padding-15px-lr margin-10px-bottom text-white font-size16 xs-font-size13`}> {personne.person} </div>
-                            <div className="margin-10px-top font-size14">{personne.local}</div>
+                            <div className={`${personne} padding-5px-tb padding-15px-lr margin-10px-bottom text-black font-size16 xs-font-size13`}> {personne.person} </div>
+                            <div className={"margin-10px-top font-size14" + personne.local === "c220" ? "bg-warning" : "bg-primary"}>{personne.local}</div>
                           </td>
                       ))
                     }
