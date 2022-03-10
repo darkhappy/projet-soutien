@@ -50,7 +50,7 @@ function Horaire() {
     <tbody>
       {
         hours.map((hour) => (
-          <tr>
+          <tr className="border-2">
             <td className="align-middle">
               <div>{hour}</div>
               <div>à</div>           
@@ -58,12 +58,12 @@ function Horaire() {
             </td>         
             {
               [1,2,3,4,5].map((jour) => (
-                <td> {
+                <td className="border-2 w-25"> {
                   (Disponibilite(jour, hour).length > 0) ? 
                   <table className="d-flex justify-content-center">
                     {
                       Disponibilite(jour, hour).map((personne) => (
-                          <td>
+                          <td className="border-0">
                             <div className={`${personne.color} padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13`}> {personne.person} </div>
                             <div className="margin-10px-top font-size14">{personne.local}</div>
                           </td>
