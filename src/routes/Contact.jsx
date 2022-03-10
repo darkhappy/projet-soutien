@@ -23,17 +23,17 @@ export default function Contact() {
         title={TITLE}
         subtitle={SUBTITLE}
       />
-      <div className="container">
+      <div className="container mt-3">
         <div className="table-responsive">
-          <table className="table table-bordered text-center">
+          <table className="table table-bordered text-center ">
             <thead>
-              <tr className="bg-light-gray">
-                <th className="text-uppercase">Heure</th>
-                <th className="text-uppercase">Lundi</th>
-                <th className="text-uppercase">Mardi</th>
-                <th className="text-uppercase">Mercredi</th>
-                <th className="text-uppercase">Jeudi</th>
-                <th className="text-uppercase">Vendredi</th>
+              <tr className="bg-light-gray border-2">
+                <th className="text-uppercase border-2">Heure</th>
+                <th className="text-uppercase border-2">Lundi</th>
+                <th className="text-uppercase border-2">Mardi</th>
+                <th className="text-uppercase border-2">Mercredi</th>
+                <th className="text-uppercase border-2">Jeudi</th>
+                <th className="text-uppercase border-2">Vendredi</th>
               </tr>
             </thead>
             {Horaire()}
@@ -51,20 +51,20 @@ function Horaire() {
       {
         hours.map((hour) => (
           <tr className="border-2">
-            <td className="align-middle">
+            <td className="align-middle border-2">
               <div>{hour}</div>
               <div>à</div>           
               <div>{ dayjs(hour, "hh:mm").add(50, "m").format("hh:mm") }</div>
             </td>         
             {
               [1,2,3,4,5].map((jour) => (
-                <td className="border-2 w-25"> {
+                <td className="border-2 col-sm-2"> {
                   (Disponibilite(jour, hour).length > 0) ? 
                   <table className="d-flex justify-content-center">
                     {
                       Disponibilite(jour, hour).map((personne) => (
                           <td className="border-0">
-                            <div className={`${personne.color} padding-5px-tb padding-15px-lr border-radius-5 margin-10px-bottom text-white font-size16 xs-font-size13`}> {personne.person} </div>
+                            <div className={`${personne.color} padding-5px-tb padding-15px-lr margin-10px-bottom text-white font-size16 xs-font-size13`}> {personne.person} </div>
                             <div className="margin-10px-top font-size14">{personne.local}</div>
                           </td>
                       ))
