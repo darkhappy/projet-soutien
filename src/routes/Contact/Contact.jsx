@@ -68,7 +68,7 @@ function Horaire() {
                       </div>
                       <div
                         className={
-                          "margin-10px-top font-size14" + personne.local ===
+                          personne.local ===
                           "c220"
                             ? "bg-warning"
                             : "bg-primary"
