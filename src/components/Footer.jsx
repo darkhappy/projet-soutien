@@ -1,6 +1,6 @@
 import { Container, Col, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import { logoShield } from "../img";
+import { logoShield } from "../images";
 
 export default function Footer() {
   return (

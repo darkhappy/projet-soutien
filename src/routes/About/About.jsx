@@ -1,6 +1,6 @@
-import Header from "../components/Header";
 import { Container } from "react-bootstrap";
 import { Helmet } from "react-helmet";
+import { Header } from "../../components";
 
 export default function About() {
   const title = "À propos";

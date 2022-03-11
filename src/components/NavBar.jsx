@@ -1,6 +1,6 @@
 import { Button, Container, Nav, Navbar } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import { logoShield } from "../img";
+import { logoShield } from "../images";
 
 export default function NavBar() {
   return (

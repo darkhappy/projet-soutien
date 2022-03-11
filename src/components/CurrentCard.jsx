@@ -1,5 +1,5 @@
 import { Badge, Card } from "react-bootstrap";
-import schedule from "./schedule.json";
+import schedule from "../data/schedule.json";
 import dayjs from "dayjs";
 import IsBetween from "dayjs/plugin/isBetween";
 import CustomParseFormat from "dayjs/plugin/customParseFormat";

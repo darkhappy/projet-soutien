@@ -2,10 +2,8 @@ import "./scss/styles.scss";
 
 import { render } from "react-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./routes/Home";
-import About from "./routes/About";
 import App from "./App";
-import Contact from "./routes/Contact";
+import { About, Contact, Home } from "./routes";
 
 const rootElement = document.getElementById("root");
 render(

@@ -1,10 +1,9 @@
-import Header from "../components/Header";
 import { Col, Container, Row } from "react-bootstrap";
-import { logoShield, blondinais, Vieux, confus } from "../img";
-import "../scss/loader.css";
-import CurrentCard from "../components/CurrentCard";
+import { logoShield, blondinais, Vieux, confus } from "../../images";
+import "./home.css";
 import { Helmet } from "react-helmet";
 import { useEffect, useState } from "react";
+import { CurrentCard, Header } from "../../components";
 
 export default function Home() {
   const [overlay, setOverlay] = useState(true);
