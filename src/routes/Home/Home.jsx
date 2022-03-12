@@ -1,27 +1,14 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { logoShield, blondinais, Vieux, confus } from "../../images";
-import "./home.css";
+import { blondinais, Vieux, confus } from "../../images";
 import { Helmet } from "react-helmet";
-import { useEffect, useState } from "react";
 import { CurrentCard, Header } from "../../components";
 
 export default function Home() {
-  const [overlay, setOverlay] = useState(true);
   const title = "Accueil";
   const subtitle = "Bienvenue au Centre d'Aide Informatique";
 
-  useEffect(() => {
-    setTimeout(() => setOverlay(false), 1250);
-  });
-
   return (
     <>
-      <div id="overlay" className={overlay ? "overlay" : "hide-overlay"}>
-        <div id="overlay-logo">
-          <img src={logoShield} alt="Logo du site" />
-          <p>Centre d'Aide Informatique</p>
-        </div>
-      </div>
       <Helmet>
         <title>{title}</title>
       </Helmet>
