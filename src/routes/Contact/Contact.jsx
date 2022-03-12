@@ -61,7 +61,7 @@ function Horaire() {
                   {Disponibilite(jour, hour).map((personne) => (
                     <td className="border-0">
                       <div
-                        className={`${personne} padding-5px-tb padding-15px-lr margin-10px-bottom text-black font-size16 xs-font-size13`}
+                        className={`${personne} padding-5px-tb padding-10px-lr margin-15px-bottom text-black font-size20 xs-font-size14`}
                       >
                         {" "}
                         {personne.person}{" "}
@@ -69,7 +69,7 @@ function Horaire() {
                       <div
                         className={
                           personne.local ===
-                          "c220"
+                          "C-220"
                             ? "bg-warning"
                             : "bg-primary"
                         }
