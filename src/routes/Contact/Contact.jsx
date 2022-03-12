@@ -70,8 +70,8 @@ function Horaire() {
                         className={
                           personne.local ===
                           "C-220"
-                            ? "bg-warning"
-                            : "bg-primary"
+                            ? "bg-warning border-radius-5"
+                            : "bg-blue border-radius-5"
                         }
                       >
                         {personne.local}
