@@ -12,7 +12,7 @@ export default function NavBar() {
       className="shadow-lg"
     >
       <Container fluid>
-        <LinkContainer to={"/"}>
+        <LinkContainer to="/">
           <Navbar.Brand>
             <div className="d-inline-block align-middle">
               <img height={65} width={55} src={logoShield} alt="Logo" />
@@ -28,17 +28,17 @@ export default function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
           <Nav className="fs-4">
-            <LinkContainer to={"/"}>
+            <LinkContainer to="/">
               <Nav.Link>Accueil</Nav.Link>
             </LinkContainer>
-            <LinkContainer to={"about"}>
+            <LinkContainer to="about">
               <Nav.Link>À propos</Nav.Link>
             </LinkContainer>
             <Nav.Link href="http://documentation.etu.cegep-lanaudiere.qc.ca/index.php?title=Accueil">
               Wikis
             </Nav.Link>
             <Nav.Link href="#">FAQs</Nav.Link>
-            <LinkContainer to={"contact"}>
+            <LinkContainer to="contact">
               <Nav.Link>
                 <Button variant="outline-primary" size="lg">
                   Contactez-nous !

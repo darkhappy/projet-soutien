@@ -23,7 +23,7 @@ export default function CurrentCard({ location }) {
     if (dayjs().isBetween(time, time.add(50, "m"))) current = array[i];
   }
 
-  const local = location === "c220" ? "Local C-220" : "Bibliothèque";
+  const local = location === "C-220" ? "Local C-220" : "Bibliothèque";
   const badge = current ? (
     <Badge bg="success">Disponible</Badge>
   ) : (

@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { blondinais, Vieux, confus } from "../../images";
+import { blondinais, confus, Vieux } from "../../images";
 import { Helmet } from "react-helmet";
 import { CurrentCard, Header } from "../../components";
 
@@ -33,10 +33,10 @@ export default function Home() {
 
         <Row>
           <Col>
-            <CurrentCard location="biblio" />
+            <CurrentCard location="Bibliothèque" />
           </Col>
           <Col>
-            <CurrentCard location="c220" />
+            <CurrentCard location="C-220" />
           </Col>
         </Row>
 
