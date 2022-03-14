@@ -27,7 +27,7 @@ export default function NavBar() {
         </LinkContainer>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-end">
-          <Nav className="fs-4">
+          <Nav className="fs-4 align-items-center">
             <LinkContainer to="/">
               <Nav.Link>Accueil</Nav.Link>
             </LinkContainer>
@@ -41,7 +41,7 @@ export default function NavBar() {
             <LinkContainer to="contact">
               <Nav.Link>
                 <Button variant="outline-primary" size="lg">
-                  Contactez-nous !
+                  Horaire CAI
                 </Button>
               </Nav.Link>
             </LinkContainer>
