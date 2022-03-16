@@ -61,7 +61,7 @@ function Horaire() {
                   {Disponibilite(jour, hour).map((personne) => (
                     <td className="border-0">
                       <div
-                        className={`${personne} padding-5 text-black`}
+                        className={`${personne} text-black`}
                       >
                         {" "}
                         {personne.person}{" "}
