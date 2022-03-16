@@ -1,4 +1,35 @@
 // Custom.scss
+.photos {
+  display: flex;
+  align-items: center;
+}
+.colPhoto {
+  padding: 5px;
+}
+.photo1 {
+  width: 100%;
+  display: inline-block;
+  transition: .5s ease;
+  border-radius: 20px;
+}
+.photo2 {
+  transition: .5s ease;
+  position: relative;
+  width: 100%;
+  display: none;
+  border-radius: 20px;
+}
+
+.colPhoto:hover .photo1 {
+  display: none;
+}
+
+.colPhoto:hover .photo2 {
+  display: inline-block;
+}
+
+
+
 // Option B: Include parts of Bootstrap
 
 // 1. Include functions first (so you can manipulate colors, SVGs, calc, etc)

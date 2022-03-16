@@ -7,3 +7,5 @@ export { default as gregRaph3 } from "./gregRaph3.png";
 export { default as imprimanteGif } from "./jpRaphPrinter.gif";
 export { default as logoText } from "./Logo_site.png";
 export { default as logoShield } from "./Shield_Logo.png";
+export { default as louis1 } from "./louis_chill.png";
+export { default as louis2 } from "./louis_approuve.png";

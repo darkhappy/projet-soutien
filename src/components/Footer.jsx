@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <div className="mt-auto pt-3">
       <Container fluid className="border-top border-2 align-middle">
-        <Row className="py-3 my-4">
+        <Row className="py-3 my-sm-1">
           <Col className="my-auto">
             ©2022 Cégep régional de Lanaudière à Joliette
           </Col>

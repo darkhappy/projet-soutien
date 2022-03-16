@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { louisEugene, jpRaphael, jpRaphael2, imprimanteGif, gregRaph1, gregRaph2, gregRaph3} from "../../images";
+import { louisEugene, jpRaphael, jpRaphael2, imprimanteGif, gregRaph1, gregRaph2, gregRaph3, louis1, louis2} from "../../images";
 import { Helmet } from "react-helmet";
 import { CurrentCard, Header } from "../../components";
 import {Link} from "react-router-dom";
@@ -45,26 +45,41 @@ export default function Home() {
               </Col>
           </Row>
 
-        <div className="row mt-3">
-          <div className="col-4">
+        <div className="photos row-cols-3">
+          <div className="colPhoto">
             <img
+              className="photo1"
               alt="Etudiant sur son portable"
               src={gregRaph1}
-              className="w-100 h-100 img-fluid"
+            />
+            <img
+              className="photo2"
+              alt="Etudiant sur son portable"
+              src={gregRaph2}
             />
           </div>
-          <div className="col-4">
+          <div  className="colPhoto">
             <img
+              className="photo1"
               alt="Etudiant sur son portable"
               src={jpRaphael2}
-              className="w-100 h-100 img-fluid"
+            />
+            <img
+              className="photo2"
+              alt="Etudiant sur son portable"
+              src={jpRaphael}
             />
           </div>
-          <div className="col-4">
+          <div className="colPhoto">
             <img
+              className="photo1"
               alt="Etudiant sur son ordinateur"
-              src={louisEugene}
-              className="w-100 h-100 img-fluid"
+              src={louis1}
+            />
+            <img
+              className="photo2"
+              alt="Etudiant sur son ordinateur"
+              src={louis2}
             />
           </div>
         </div>
