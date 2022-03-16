@@ -1,5 +1,9 @@
-export { default as blondinais } from "./Blondinais.jpg";
-export { default as Vieux } from "./Vieux.jpg";
-export { default as confus } from "./confus.jpg";
+export { default as louisEugene } from "./louisEugene.png";
+export { default as jpRaphael } from "./jpRaphael.png";
+export { default as jpRaphael2 } from "./jpRaphae2.png";
+export { default as gregRaph1 } from "./gregRaph1.png";
+export { default as gregRaph2 } from "./gregRaph2.png";
+export { default as gregRaph3 } from "./gregRaph3.png";
+export { default as imprimanteGif } from "./jpRaphPrinter.gif";
 export { default as logoText } from "./Logo_site.png";
 export { default as logoShield } from "./Shield_Logo.png";

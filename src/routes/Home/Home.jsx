@@ -1,5 +1,5 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { blondinais, confus, Vieux } from "../../images";
+import { louisEugene, jpRaphael, jpRaphael2, imprimanteGif, gregRaph1, gregRaph2, gregRaph3} from "../../images";
 import { Helmet } from "react-helmet";
 import { CurrentCard, Header } from "../../components";
 
@@ -44,21 +44,21 @@ export default function Home() {
           <div className="col-4">
             <img
               alt="Etudiant sur son portable"
-              src={blondinais}
+              src={gregRaph1}
               className="w-100 h-100 img-fluid"
             />
           </div>
           <div className="col-4">
             <img
               alt="Etudiant sur son portable"
-              src={confus}
+              src={jpRaphael2}
               className="w-100 h-100 img-fluid"
             />
           </div>
           <div className="col-4">
             <img
               alt="Etudiant sur son ordinateur"
-              src={Vieux}
+              src={louisEugene}
               className="w-100 h-100 img-fluid"
             />
           </div>
