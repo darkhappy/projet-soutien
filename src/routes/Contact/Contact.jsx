@@ -26,7 +26,7 @@ export default function Contact() {
           <table className="table table-bordered text-center ">
             <thead>
               <tr className="bg-light-gray">
-                <th className="text-uppercase border-2">Heure</th>
+                <th className="text-uppercase border-1">Heure</th>
                 <th className="text-uppercase border-2">Lundi</th>
                 <th className="text-uppercase border-2">Mardi</th>
                 <th className="text-uppercase border-2">Mercredi</th>
