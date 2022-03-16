@@ -2,6 +2,7 @@ import { Col, Container, Row } from "react-bootstrap";
 import { louisEugene, jpRaphael, jpRaphael2, imprimanteGif, gregRaph1, gregRaph2, gregRaph3} from "../../images";
 import { Helmet } from "react-helmet";
 import { CurrentCard, Header } from "../../components";
+import {Link} from "react-router-dom";
 
 export default function Home() {
   const title = "Accueil";
@@ -31,14 +32,18 @@ export default function Home() {
           </p>
         </div>
 
-        <Row>
-          <Col>
-            <CurrentCard location="Bibliothèque" />
-          </Col>
-          <Col>
-            <CurrentCard location="C-220" />
-          </Col>
-        </Row>
+          <Row>
+            <Col>
+              <Link className="text-decoration-none text-black" to="/contact">
+              <CurrentCard location="Bibliothèque" />
+              </Link>
+            </Col>
+              <Col>
+                <Link className="text-decoration-none text-black" to="/contact">
+                <CurrentCard location="C-220" />
+                </Link>
+              </Col>
+          </Row>
 
         <div className="row mt-3">
           <div className="col-4">
