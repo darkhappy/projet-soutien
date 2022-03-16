@@ -21,11 +21,11 @@ export default function Contact() {
         <title>{TITLE}</title>
       </Helmet>
       <Header title={TITLE} subtitle={SUBTITLE} />
-      <div className="container mt-3">
+      <div className="container mt-auto">
         <div className="table-responsive">
           <table className="table table-bordered text-center ">
             <thead>
-              <tr className="bg-light-gray border-2">
+              <tr className="bg-light-gray">
                 <th className="text-uppercase border-2">Heure</th>
                 <th className="text-uppercase border-2">Lundi</th>
                 <th className="text-uppercase border-2">Mardi</th>
