@@ -12,10 +12,8 @@ export default function CurrentCard({ location }) {
   dayjs.extend(weekday);
 
   // Get the array of people of that day
-  let array = schedule;
-  array = array.filter(
-    (a) => a.day === dayjs().weekday() && a.local === location
-  );
+  let array = schedule[Object.keys(schedule)[dayjs().weekday() - 1]];
+  console.log(array);
 
   // Check if anyone is currently there
   for (let i = 0; i < array.length && !current; i++) {
