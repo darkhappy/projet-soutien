@@ -1,4 +1,3 @@
-import "./contact.css";
 import schedule from "../../data/schedule.json";
 import dayjs from "dayjs";
 import CustomParseFormat from "dayjs/plugin/customParseFormat";
@@ -26,7 +25,7 @@ export default function Contact() {
           <table className="table table-bordered text-center ">
             <thead>
               <tr className="bg-light-gray">
-                <th className="text-uppercase border-1">Heure</th>
+                <th className="text-uppercase border-2">Heure</th>
                 <th className="text-uppercase border-2">Lundi</th>
                 <th className="text-uppercase border-2">Mardi</th>
                 <th className="text-uppercase border-2">Mercredi</th>
@@ -48,13 +47,15 @@ function Horaire() {
     <tbody>
       {hours.map((hour) => (
         <tr className="border-2">
-          <td className="align-middle border-2">
-            <div>{hour}</div>
-            <div>à</div>
-            <div>{dayjs(hour, "hh:mm").add(50, "m").format("hh:mm")}</div>
-          </td>
+          <th className="align-middle border-2 col-1" scope="row">
+            {hour}
+            <br />
+            à
+            <br/>
+            {dayjs(hour, "HH:mm").add(50, "m").format("HH:mm")}
+          </th>
           {[1, 2, 3, 4, 5].map((jour) => (
-            <td className="border-2 col-sm-2">
+            <td className="border-2 col-2">
               {" "}
               {Disponibilite(jour, hour).length > 0 ? (
                 <table className="d-flex justify-content-center">
@@ -70,8 +71,8 @@ function Horaire() {
                         className={
                           personne.local ===
                           "C-220"
-                            ? "bg-primary border-radius-5 text-white"
-                            : "bg-success border-radius-5 text-white"
+                            ? "bg-primary rounded text-white"
+                            : "bg-success rounded text-white"
                         }
                       >
                         {personne.local}
