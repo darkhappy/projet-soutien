@@ -1,104 +1,104 @@
 [
   {
-    "person": "Olivier Phoenix",
+    "person": "Olivier",
     "start": "11:00",
     "day": 1,
     "local": "C-220",
     "color": "bg-blue"
   },
   {
-    "person": "Gregory St-Facli",
+    "person": "Gregory",
     "start": "11:55",
     "day": 1,
     "local": "C-220",
     "color": "bg-orange"
   },
   {
-    "person": "Louis-Félix Veillette",
+    "person": "Louis-Félix",
     "start": "11:55",
     "day": 3,
     "local": "C-220",
     "color": "bg-brown"
   },
   {
-    "person": "Jean-Philippe Miguel-Gagnon",
+    "person": "Jean-Philippe",
     "start": "12:50",
     "day": 3,
     "local": "C-220",
     "color": "bg-yellow"
   },
   {
-    "person": "Raphaël Sincerny",
+    "person": "Raphaël S.",
     "start": "11:55",
     "day": 4,
     "local": "C-220",
     "color": "bg-pink"
   },
   {
-    "person": "Marc-Antoine Gagnon",
+    "person": "Marc-Antoine",
     "start": "12:50",
     "day": 4,
     "local": "C-220",
     "color": "bg-purple"
   },
   {
-    "person": "Ulric Richer",
+    "person": "Ulric",
     "start": "13:45",
     "day": 4,
     "local": "C-220",
     "color": "bg-lightred"
   },
   {
-    "person": "Gabriel Daoust",
+    "person": "Gabriel",
     "start": "11:00",
     "day": 1,
     "local": "Bibliothèque",
     "color": "bg-red"
   },
   {
-    "person": "Redgy Pérard",
+    "person": "Redgy",
     "start": "11:55",
     "day": 1,
     "local": "Bibliothèque",
     "color": "bg-blue"
   },
   {
-    "person": "Bryan Maestre",
+    "person": "Bryan",
     "start": "14:40",
     "day": 1,
     "local": "Bibliothèque",
     "color": "bg-black"
   },
   {
-    "person": "Eugène-Emmanuël Dubuc",
+    "person": "Eugène-Emmanuël",
     "start": "11:55",
     "day": 3,
     "local": "Bibliothèque",
     "color": "bg-gray"
   },
   {
-    "person": "Raphaël Rail",
+    "person": "Raphaël R.",
     "start": "11:55",
     "day": 4,
     "local": "Bibliothèque",
     "color": "bg-green"
   },
   {
-    "person": "Isabelle Provost",
+    "person": "Isabelle",
     "start": "12:50",
     "day": 4,
     "local": "Bibliothèque",
     "color": "bg-lightgreen"
   },
   {
-    "person": "Nikolas D'Amato",
+    "person": "Nikolas",
     "start": "13:45",
     "day": 4,
     "local": "Bibliothèque",
     "color": "bg-darkblue"
   },
   {
-    "person": "Thomas Laporte",
+    "person": "Thomas",
     "start": "11:55",
     "day": 5,
     "local": "Bibliothèque",
