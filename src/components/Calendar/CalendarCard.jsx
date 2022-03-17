@@ -11,7 +11,7 @@ export default function CalendarCard({ start, end, persons }) {
   return (
     <Card className="my-2">
       <Row className="align-items-center py-2 container">
-        <Col xs={3} sm={2}>
+        <Col xs={3} sm={2} className="fw-bold">
           {start}
           <br />
           {end}
@@ -32,7 +32,7 @@ function CardDetails({ name, location }) {
   const local = location === "c220" ? "Local C-220" : "Bibliothèque";
   return name ? (
     <ListGroupItem className="py-3" key={location}>
-      <h3>{name}</h3>
+      <h4 className="fw-light">{name}</h4>
       <Badge bg={location === "c220" ? "primary" : "success"}>{local}</Badge>
     </ListGroupItem>
   ) : null;
