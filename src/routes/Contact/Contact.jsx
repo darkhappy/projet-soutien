@@ -1,4 +1,3 @@
-import "./contact.css";
 import { Helmet } from "react-helmet";
 import {
   Header,
