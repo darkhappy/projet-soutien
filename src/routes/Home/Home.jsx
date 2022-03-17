@@ -33,10 +33,10 @@ export default function Home() {
 
         <Row>
           <Col>
-            <CurrentCard location="Bibliothèque" />
+            <CurrentCard location="biblio" />
           </Col>
           <Col>
-            <CurrentCard location="C-220" />
+            <CurrentCard location="c220" />
           </Col>
         </Row>
 
