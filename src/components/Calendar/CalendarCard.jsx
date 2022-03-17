@@ -10,8 +10,8 @@ import {
 export default function CalendarCard({ start, end, persons }) {
   return (
     <Card className="my-2">
-      <Row className="align-items-center py-2 container">
-        <Col xs={3} sm={2} className="fw-bold">
+      <Row className="align-items-center py-2 container-fluid">
+        <Col xs={"auto"} sm={2} className="fw-bold">
           {start}
           <br />
           {end}

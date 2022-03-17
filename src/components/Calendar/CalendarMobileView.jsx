@@ -6,7 +6,7 @@ import CustomParseFormat from "dayjs/plugin/customParseFormat";
 export default function CalendarMobileView() {
   let array = {
     Lundi: schedule.monday,
-    Mardi: schedule.thursday,
+    Mardi: schedule.tuesday,
     Mercredi: schedule.wednesday,
     Jeudi: schedule.thursday,
     Vendredi: schedule.friday,

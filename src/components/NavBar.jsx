@@ -14,14 +14,12 @@ export default function NavBar() {
       <Container fluid>
         <LinkContainer to="/">
           <Navbar.Brand>
-            <div className="d-inline-block align-middle">
-              <img height={65} width={55} src={logoShield} alt="Logo" />
-              <p
-                style={{ fontSize: "2.5em" }}
-                className="mb-0 mx-2 mt-0 fw-bolder d-inline-block align-middle"
-              >
-                C.A.I.
-              </p>
+            <div className="d-inline-flex align-items-center fs-2">
+              <img height={65} src={logoShield} alt="Logo" className="me-2" />
+              <span className="d-xl-none">C.A.I.</span>
+              <span className="d-none d-xl-block">
+                Centre Aide Informatique
+              </span>
             </div>
           </Navbar.Brand>
         </LinkContainer>
@@ -34,16 +32,16 @@ export default function NavBar() {
             <LinkContainer to="about">
               <Nav.Link>À propos</Nav.Link>
             </LinkContainer>
-            <Nav.Link href="http://documentation.etu.cegep-lanaudiere.qc.ca/index.php?title=Accueil">
-              Wikis
+            <Nav.Link href="https://documentation.etu.cegep-lanaudiere.qc.ca/index.php?title=Accueil">
+              Documentation
             </Nav.Link>
-            <Nav.Link href="#">FAQs</Nav.Link>
+            <Nav.Link href="https://billet.etu.cegep-lanaudiere.qc.ca/Billeterie/billeterie.php">
+              Support
+            </Nav.Link>
             <LinkContainer to="contact">
-              <Nav.Link>
-                <Button variant="outline-primary" size="lg">
-                  Horaire CAI
-                </Button>
-              </Nav.Link>
+              <Button variant="outline-primary" className="ms-2" size="lg">
+                Horaire CAI
+              </Button>
             </LinkContainer>
           </Nav>
         </Navbar.Collapse>

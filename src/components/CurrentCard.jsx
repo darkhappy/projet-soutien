@@ -4,29 +4,33 @@ import dayjs from "dayjs";
 import IsBetween from "dayjs/plugin/isBetween";
 import CustomParseFormat from "dayjs/plugin/customParseFormat";
 import weekday from "dayjs/plugin/weekday";
+import { useEffect, useState } from "react";
+
+dayjs.extend(IsBetween);
+dayjs.extend(CustomParseFormat);
+dayjs.extend(weekday);
 
 export default function CurrentCard({ location }) {
-  let current = null;
-  dayjs.extend(IsBetween);
-  dayjs.extend(CustomParseFormat);
-  dayjs.extend(weekday);
-
-  // Get the array of people of that day
-  let array = schedule[Object.keys(schedule)[dayjs().weekday() - 1]];
-
-  // Check if anyone is currently there
-  for (let i = 0; i < array.length && !current; i++) {
-    let start = dayjs(array[i].start, "hh:mm");
-    let end = start.add(50, "m");
-    if (dayjs().isBetween(start, end) && array[i][location]) current = array[i];
-  }
-
+  const [current, setCurrent] = useState(null);
   const local = location === "c220" ? "Local C-220" : "Bibliothèque";
   const badge = current ? (
     <Badge bg="success">Disponible</Badge>
   ) : (
     <Badge bg="secondary">Absent</Badge>
   );
+
+  useEffect(() => {
+    // Get the array of people of that day
+    let array = schedule[Object.keys(schedule)[dayjs().weekday() - 1]];
+
+    // Check if anyone is currently there
+    for (let i = 0; i < array.length; i++) {
+      let start = dayjs(array[i].start, "hh:mm");
+      let end = start.add(50, "m");
+      if (dayjs().isBetween(start, end) && array[i][location])
+        setCurrent(array[i]);
+    }
+  }, [location]);
 
   return (
     <Card className="border-3 my-3" border={current ? "success" : "secondary"}>
@@ -49,6 +53,3 @@ export default function CurrentCard({ location }) {
     </Card>
   );
 }
-
-/*
- */
