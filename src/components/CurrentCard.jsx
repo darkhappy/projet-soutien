@@ -12,18 +12,16 @@ export default function CurrentCard({ location }) {
   dayjs.extend(weekday);
 
   // Get the array of people of that day
-  let array = schedule;
-  array = array.filter(
-    (a) => a.day === dayjs().weekday() && a.local === location
-  );
+  let array = schedule[Object.keys(schedule)[dayjs().weekday() - 1]];
 
   // Check if anyone is currently there
   for (let i = 0; i < array.length && !current; i++) {
-    let time = dayjs(array[i].start, "hh:mm");
-    if (dayjs().isBetween(time, time.add(50, "m"))) current = array[i];
+    let start = dayjs(array[i].start, "hh:mm");
+    let end = start.add(50, "m");
+    if (dayjs().isBetween(start, end) && array[i][location]) current = array[i];
   }
 
-  const local = location === "C-220" ? "Local C-220" : "Bibliothèque";
+  const local = location === "c220" ? "Local C-220" : "Bibliothèque";
   const badge = current ? (
     <Badge bg="success">Disponible</Badge>
   ) : (
@@ -40,7 +38,7 @@ export default function CurrentCard({ location }) {
         <Card.Text className="mt-2">
           {current ? (
             <>
-              Présentement, <span className="fw-bold">{current.person}</span>{" "}
+              Présentement, <span className="fw-bold">{current[location]}</span>{" "}
               est prêt à aider!
             </>
           ) : (

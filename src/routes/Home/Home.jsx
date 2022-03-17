@@ -1,8 +1,18 @@
 import { Col, Container, Row } from "react-bootstrap";
-import { louisEugene, jpRaphael, jpRaphael2, imprimanteGif, gregRaph1, gregRaph2, gregRaph3, louis1, louis2} from "../../images";
+import {
+  louisEugene,
+  jpRaphael,
+  jpRaphael2,
+  imprimanteGif,
+  gregRaph1,
+  gregRaph2,
+  gregRaph3,
+  louis1,
+  louis2,
+} from "../../images";
 import { Helmet } from "react-helmet";
 import { CurrentCard, Header } from "../../components";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   const title = "Accueil";
@@ -32,18 +42,18 @@ export default function Home() {
           </p>
         </div>
 
-          <Row>
-            <Col>
-              <Link className="text-decoration-none text-black" to="/contact">
-              <CurrentCard location="Bibliothèque" />
-              </Link>
-            </Col>
-              <Col>
-                <Link className="text-decoration-none text-black" to="/contact">
-                <CurrentCard location="C-220" />
-                </Link>
-              </Col>
-          </Row>
+        <Row>
+          <Col>
+            <Link className="text-decoration-none text-black" to="/contact">
+              <CurrentCard location="biblio" />
+            </Link>
+          </Col>
+          <Col>
+            <Link className="text-decoration-none text-black" to="/contact">
+              <CurrentCard location="c220" />
+            </Link>
+          </Col>
+        </Row>
 
         <div className="photos row-cols-3">
           <div className="colPhoto">
@@ -58,7 +68,7 @@ export default function Home() {
               src={gregRaph2}
             />
           </div>
-          <div  className="colPhoto">
+          <div className="colPhoto">
             <img
               className="photo1"
               alt="Etudiant sur son portable"
