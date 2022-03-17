@@ -31,7 +31,7 @@ export default function CalendarCard({ start, end, persons }) {
 function CardDetails({ name, location }) {
   const local = location === "c220" ? "Local C-220" : "Bibliothèque";
   return name ? (
-    <ListGroupItem className="py-3" eventKey={location}>
+    <ListGroupItem className="py-3" key={location}>
       <h3>{name}</h3>
       <Badge bg={location === "c220" ? "primary" : "success"}>{local}</Badge>
     </ListGroupItem>

@@ -4,6 +4,9 @@ import schedule from "../../data/schedule.json";
 
 export default function CalendarDesktopView() {
   // TODO: fix this shit
+  // schedule.json a un nouveau format, il faut donc refaire le code de l'horaire
+  return <p>Loading...</p>;
+  /*
   return (
     <div className="table-responsive">
       <table className="table table-bordered text-center ">
@@ -21,6 +24,7 @@ export default function CalendarDesktopView() {
       </table>
     </div>
   );
+  */
 }
 
 function Horaire() {

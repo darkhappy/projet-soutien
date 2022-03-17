@@ -21,8 +21,7 @@ export default function Contact() {
           <CalendarMobileView />
         </div>
         <div className="d-none d-lg-block">
-          De retour dans pas long
-          {/*<CalendarDesktopView />*/}
+          <CalendarDesktopView />
         </div>
       </Container>
     </>
