@@ -2,14 +2,8 @@ import dayjs from "dayjs";
 import CustomParseFormat from "dayjs/plugin/customParseFormat";
 import schedule from "../../data/schedule.json";
 
-const hours = [];
-
-schedule.map((item) => {
-  var findItem = hours.find((x) => x === item.start);
-  if (!findItem) hours.push(item.start);
-});
-
 export default function CalendarDesktopView() {
+  // TODO: fix this shit
   return (
     <div className="table-responsive">
       <table className="table table-bordered text-center ">
@@ -30,6 +24,13 @@ export default function CalendarDesktopView() {
 }
 
 function Horaire() {
+  const hours = [];
+
+  schedule.forEach((item) => {
+    let findItem = hours.find((x) => x === item.start);
+    if (!findItem) hours.push(item.start);
+  });
+
   dayjs.extend(CustomParseFormat);
   return (
     <tbody>
