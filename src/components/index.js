@@ -3,5 +3,7 @@ export { default as Footer } from "./Footer";
 export { default as Header } from "./Header";
 export { default as NavBar } from "./NavBar";
 export { default as Loader } from "./Loader";
+export { default as CalendarCard } from "./Calendar/CalendarCard";
+export { default as CardDetails } from "./Calendar/CardDetails";
 export { default as CalendarDesktopView } from "./Calendar/CalendarDesktopView";
 export { default as CalendarMobileView } from "./Calendar/CalendarMobileView";

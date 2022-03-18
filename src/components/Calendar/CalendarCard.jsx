@@ -1,11 +1,5 @@
-import {
-  Badge,
-  Card,
-  Col,
-  ListGroup,
-  ListGroupItem,
-  Row,
-} from "react-bootstrap";
+import { Card, Col, ListGroup, Row } from "react-bootstrap";
+import { CardDetails } from "..";
 
 export default function CalendarCard({ start, end, persons }) {
   return (
@@ -13,7 +7,7 @@ export default function CalendarCard({ start, end, persons }) {
       <Row className="align-items-center py-2 container-fluid">
         <Col xs={"auto"} sm={"auto"} className="fw-bold">
           {start}
-          <center>à</center>
+          <br />
           {end}
         </Col>
         <Col className="border-start">
@@ -26,14 +20,4 @@ export default function CalendarCard({ start, end, persons }) {
       </Row>
     </Card>
   );
-}
-
-function CardDetails({ name, location }) {
-  const local = location === "c220" ? "Local C-220" : "Bibliothèque";
-  return name ? (
-    <ListGroupItem className="py-3" key={location}>
-      <h4 className="fw-light">{name}</h4>
-      <Badge bg={location === "c220" ? "primary" : "success"}>{local}</Badge>
-    </ListGroupItem>
-  ) : null;
 }

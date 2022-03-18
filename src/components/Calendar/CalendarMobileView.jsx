@@ -1,7 +1,7 @@
-import CalendarCard from "./CalendarCard";
 import schedule from "../../data/schedule.json";
 import dayjs from "dayjs";
 import CustomParseFormat from "dayjs/plugin/customParseFormat";
+import { CalendarCard } from "../index";
 
 export default function CalendarMobileView() {
   let array = {
