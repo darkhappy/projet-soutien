@@ -20,7 +20,7 @@ export default function Contact() {
         <div className="d-lg-none">
           <CalendarMobileView />
         </div>
-        <div className="d-none d-lg-block">
+        <div className="d-none d-lg-block container">
           <CalendarDesktopView />
         </div>
       </Container>
