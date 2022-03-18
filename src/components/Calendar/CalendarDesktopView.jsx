@@ -2,7 +2,7 @@ import dayjs from "dayjs";
 import CustomParseFormat from "dayjs/plugin/customParseFormat";
 import schedule from "../../data/schedule.json";
 
-const hours = ["8:15","9:10","10:05","11:00","11:55","12:50","13:45","14h:40","15:35","16:30","17:25"];
+const hours = ["11:00","11:55","12:50","13:45","14:40"];
 
 export default function CalendarDesktopView() {
   return (
@@ -43,7 +43,7 @@ function Horaire() {
                 <table className="d-flex justify-content-center" key={hour + day + "2"}>
                   <tbody><tr>
                   {Disponibilite(day, hour)[0] != null ? 
-                    <td className="border-0" key={hour + day + "3"}>
+                    <td className="border-0 p-1" key={hour + day + "3"}>
                       <div className="text-black" key={hour + day + "4"}>
                         {Disponibilite(day, hour)[0] }
                       </div>
@@ -53,7 +53,7 @@ function Horaire() {
                       </td>                  
                   : null}
                   {Disponibilite(day, hour)[1] != null ? 
-                    <td className="border-0" key={hour + day + "6"}>
+                    <td className="border-0 p-1" key={hour + day + "6"}>
                       <div className="text-black" key={hour + day + "7"}>
                         {Disponibilite(day, hour)[1] }
                       </div>
