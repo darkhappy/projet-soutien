@@ -6,7 +6,7 @@ import {
 } from "../../components";
 import { Container } from "react-bootstrap";
 
-const TITLE = "Nous contacter";
+const TITLE = "Horaire du CAI";
 const SUBTITLE = "Nos coordonnées et notre horaire";
 
 export default function Contact() {
