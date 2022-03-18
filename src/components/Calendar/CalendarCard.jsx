@@ -13,7 +13,7 @@ export default function CalendarCard({ start, end, persons }) {
       <Row className="align-items-center py-2 container-fluid">
         <Col xs={"auto"} sm={2} className="fw-bold">
           {start}
-          <br />
+          <center>à</center>
           {end}
         </Col>
         <Col className="border-start">
