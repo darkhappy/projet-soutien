@@ -35,7 +35,7 @@ export default function CurrentCard({ location }) {
   return (
     <Card className="border-3 my-3" border={current ? "success" : "secondary"}>
       <Card.Body>
-        <div className="d-flex justify-content-between align-items-center">
+        <div className="d-flex flex-column flex-sm-row justify-content-between align-items-center">
           <Card.Title>{local}</Card.Title>
           {badge}
         </div>
