@@ -22,6 +22,7 @@ export default function CurrentCard({ location }) {
   useEffect(() => {
     // Get the array of people of that day
     let array = schedule[Object.keys(schedule)[dayjs().weekday() - 1]];
+    if (!array) return;
 
     // Check if anyone is currently there
     for (let i = 0; i < array.length; i++) {
