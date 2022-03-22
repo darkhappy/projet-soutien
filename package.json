@@ -1,5 +1,6 @@
 {
   "name": "projet-soutien",
+  "homepage": "https://cai.etu.cegep-lanaudiere.qc.ca",
   "version": "1.0.0",
   "description": "Projet de site-web pour le cour de Soutien Informatique",
   "repository": "git@github.com:drkhapp-school/projet-soutien",
