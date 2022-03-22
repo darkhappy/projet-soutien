@@ -37,8 +37,8 @@ export default function About() {
               personnalisé.
             </li>
             <li>
-              Offrir aux étudiants et étudiantes de la technique une expérience
-              dite de terrain de support informatique.
+              Offrir aux étudiants et étudiantes de la technique en informatique
+              une vraie opportunité d'offrir un bon support informatique.
             </li>
             <li>
               Permettre l'entraide dans la communauté du cégep au niveau
@@ -51,9 +51,10 @@ export default function About() {
           <h3 className="mb-3">La clientèle cible</h3>
           <p>
             Le CAI aidera dans un premier temps l'ensemble des étudiants du
-            Cégep Lanaudière à Joliette. Par la suite, nous répondrons à toute
-            personne ayant des questions ou des problèmes liés à l'informatique
-            et nous fournirons de l'aide personnalisée appropriée.
+            Cégep régional de Lanaudière à Joliette. Par la suite, nous
+            répondrons à toute personne ayant des questions ou des problèmes
+            liés à l'informatique et nous fournirons de l'aide personnalisée
+            appropriée.
           </p>
         </div>
 
@@ -79,7 +80,7 @@ export default function About() {
           </p>
           <ul>
             <li>
-              J'accepte qu'aucune responsabilité ne peut être imputée à
+              J'accepte qu'aucune responsabilité ne peut être attribué à
               l’étudiante ou l’étudiant, au professeur chargé du CAI et au Cégep
               régional de Lanaudière concernant les services rendus.
             </li>
