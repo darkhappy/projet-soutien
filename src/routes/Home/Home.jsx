@@ -38,7 +38,7 @@ export default function Home() {
           </p>
           <p>
             Il y a aussi une section « À propos » dans notre menu qui vous
-            permettra dans connaître un peu plus sur nous, nos objectifs, etc.
+            permettra d'en connaître un peu plus sur nous, nos objectifs, etc.
           </p>
         </div>
 
