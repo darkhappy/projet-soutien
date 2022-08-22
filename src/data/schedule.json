@@ -2,55 +2,68 @@
   "monday": [
     {
       "start": "11:00",
-      "c220": "Olivier",
-      "biblio": "Gabriel"
+      "biblio": "Raphael R."
     },
     {
       "start": "11:55",
-      "c220": "Gregory",
-      "biblio": "Redgy"
-    },
-    {
-      "start": "14:40",
-      "c220": null,
-      "biblio": "Bryan"
+      "biblio": "Isabelle"
     }
   ],
-  "tuesday": [],
-  "wednesday": [
+  "tuesday": [
     {
       "start": "11:55",
-      "c220": "Louis-Félix",
-      "biblio": "Eugène-Emmanuël"
+      "biblio": "Jérémy G."
     },
     {
       "start": "12:50",
-      "c220": "Jean-Philippe",
-      "biblio": null
+      "biblio": "Eugène-Emmanuël"
+    },
+    {
+      "start": "13:45",
+      "biblio": "Louis-Félix"
     }
+  ],
+  "wednesday": [
+     {
+        "start": "10:05",
+        "biblio": "Thomas"
+     },
+     {
+        "start": "11:00",
+        "biblio": "Jean-Philippe"
+     },
+     {
+        "start": "11:55",
+        "biblio": "Gabriel Da."
+     }
   ],
   "thursday": [
     {
       "start": "11:55",
-      "c220": "Raphaël S.",
-      "biblio": "Raphaël R."
+      "biblio": "Raphaël S."
     },
     {
       "start": "12:50",
-      "c220": "Marc-Antoine",
-      "biblio": "Isabelle"
+      "biblio": "Ulric"
     },
     {
       "start": "13:45",
-      "c220": "Ulric",
-      "biblio": "Nikolas"
+      "biblio": "Marc-Antoine"
     }
   ],
   "friday": [
-    {
-      "start": "11:55",
-      "c220": null,
-      "biblio": "Thomas Laporte"
-    }
+     {
+        "start": "11:00",
+        "biblio": "Jérémie P."
+     },
+     {
+        "start": "11:55",
+        "biblio": "Gabriel Du."
+     },
+     {
+        "start": "12:50",
+        "biblio": "Nikolas"
+     }
+
   ]
 }

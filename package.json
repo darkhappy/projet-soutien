@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "eslint": "^8.9.0",
-    "husky": "^7.0.4",
+    "husky": "^8.0.1",
     "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
     "react-snap": "^1.23.0",

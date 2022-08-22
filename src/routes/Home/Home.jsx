@@ -42,18 +42,11 @@ export default function Home() {
           </p>
         </div>
 
-        <Row>
-          <Col>
-            <Link className="text-decoration-none text-black" to="/contact">
-              <CurrentCard location="biblio" />
-            </Link>
-          </Col>
-          <Col>
-            <Link className="text-decoration-none text-black" to="/contact">
-              <CurrentCard location="c220" />
-            </Link>
-          </Col>
-        </Row>
+        <Col>
+          <Link className="text-decoration-none text-black" to="/contact">
+            <CurrentCard location="biblio" />
+          </Link>
+        </Col>
 
         <div className="photos row-cols-3">
           <div className="colPhoto">

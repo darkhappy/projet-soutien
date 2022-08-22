@@ -4,7 +4,7 @@ import schedule from "../../data/schedule.json";
 import { ListGroup, Table } from "react-bootstrap";
 import { CardDetails } from "..";
 
-const hours = ["11:00", "11:55", "12:50", "13:45", "14:40"];
+const hours = ["10:05", "11:00", "11:55", "12:50", "13:45"];
 
 export default function CalendarDesktopView() {
   return (

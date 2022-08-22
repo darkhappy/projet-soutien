@@ -5,7 +5,6 @@ export default function CardDetails({ name, location, desktop }) {
   return name ? (
     <ListGroupItem className="py-3 py-lg-2" key={location}>
       {desktop ? <h6>{name}</h6> : <h4 className="fw-light">{name}</h4>}
-      <Badge bg={location === "c220" ? "primary" : "success"}>{local}</Badge>
     </ListGroupItem>
   ) : null;
 }
