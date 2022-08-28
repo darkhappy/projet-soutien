@@ -28,20 +28,24 @@
     }
   ],
   "wednesday": [
-     {
-        "start": "10:05",
-        "biblio": "Thomas"
-     },
-     {
-        "start": "11:00",
-        "biblio": "Jean-Philippe"
-     },
-     {
-        "start": "11:55",
-        "biblio": "Gabriel Da."
-     }
+    {
+      "start": "10:05",
+      "biblio": "Thomas"
+    },
+    {
+      "start": "11:00",
+      "biblio": "Jean-Philippe"
+    },
+    {
+      "start": "11:55",
+      "biblio": "Gabriel Da."
+    }
   ],
   "thursday": [
+    {
+      "start": "Gabriel R.-P.",
+      "biblio": "11:00"
+    },
     {
       "start": "11:55",
       "biblio": "Raphaël S."
@@ -56,18 +60,17 @@
     }
   ],
   "friday": [
-     {
-        "start": "11:00",
-        "biblio": "Jérémie P."
-     },
-     {
-        "start": "11:55",
-        "biblio": "Gabriel Du."
-     },
-     {
-        "start": "12:50",
-        "biblio": "Nikolas"
-     }
-
+    {
+      "start": "11:00",
+      "biblio": "Jérémie P."
+    },
+    {
+      "start": "11:55",
+      "biblio": "Gabriel Du."
+    },
+    {
+      "start": "12:50",
+      "biblio": "Nikolas"
+    }
   ]
 }
