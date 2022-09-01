@@ -43,10 +43,6 @@
   ],
   "thursday": [
     {
-      "start": "11:00",
-      "biblio": "Gabriel R.-P."
-    },
-    {
       "start": "11:55",
       "biblio": "Raphaël S."
     },
@@ -71,6 +67,10 @@
     {
       "start": "12:50",
       "biblio": "Nikolas"
+    },
+    {
+      "start": "13:45",
+      "biblio": "Gabriel R."
     }
   ]
 }
