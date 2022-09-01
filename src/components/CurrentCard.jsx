@@ -47,7 +47,7 @@ export default function CurrentCard({ location }) {
               est prêt à aider!
             </>
           ) : (
-            <>Il n'y a personne.</>
+            <>Il n'y a personne pour le moment!</>
           )}
         </Card.Text>
       </Card.Body>
